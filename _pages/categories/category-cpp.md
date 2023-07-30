@@ -1,10 +1,10 @@
 ---
-title: "프로그래밍 언어"
+title: "C/C++"
 layout: archive
-permalink: categories/["programming language"]
+permalink: categories/cpp
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.["Programming language"] %}
+{% assign posts = site.categories.Cpp %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
