@@ -73,9 +73,9 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification : "LK2TXlkuCxtkFE2WJPSRo7i_DDkLL_iIaSO7cqlNTqE"
+google_site_verification :
 bing_site_verification   :
-naver_site_verification  : "naver27d4eb9a7f1d6694a7ef05d0eb232275.html"
+naver_site_verification  :
 yandex_site_verification :
 baidu_site_verification  :
 
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "샤인"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am Shine"
+  bio              : "반갑습니다:)"
   location         : "Korea, Seoul"
   email            : "joett0514@gmail.com"
   links:
