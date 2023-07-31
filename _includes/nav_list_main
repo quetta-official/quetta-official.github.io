@@ -10,15 +10,15 @@
       <li>
             📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
       </li>
+      <li>
       <span class="nav__sub-title">Blog</span>
            <ul>
                {% for category in site.categories %}
                    {% if category[0] == "Blog" %}
-                       <li><a href="/categories/algorithm" class=""> Blog ({{category[1].size}})</a></li>
+                       <li><a href="/categories/blog" class=""> Blog ({{category[1].size}})</a></li>
                    {% endif %}
                {% endfor %}
            </ul>
-      <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
         <span class="nav__sub-title">Programming Languages</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
