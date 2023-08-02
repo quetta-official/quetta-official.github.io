@@ -67,6 +67,14 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+        <span class="nav__sub-title">Robotics Software Engineering</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Robotics Software Engineering" %}
+                        <li><a href="/categories/calculus" class=""> Robotics Software Engineering ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
       </li>
   </ul>
 </nav>
