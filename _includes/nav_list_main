@@ -11,9 +11,9 @@
             📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
       </li>
       <li>
-        <span class="nav__sub-title">Robotics Software Engineering</span>
-          <ul>
-                 {% for category in site.categories %}
+       <span class="nav__sub-title">Robotics Software Engineering</span>
+           <ul>
+               {% for category in site.categories %}
                   {% if category[0] == "Robotics Software Engineering" %}
                       <li><a href="/categories/calculus" class=""> Robotics Software Engineering ({{category[1].size}})</a></li>
                   {% endif %}
