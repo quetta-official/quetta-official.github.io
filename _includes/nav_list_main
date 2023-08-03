@@ -15,7 +15,7 @@
            <ul>
                {% for category in site.categories %}
                   {% if category[0] == "Robotics Software Engineering" %}
-                      <li><a href="/categories/calculus" class=""> Robotics Software Engineering ({{category[1].size}})</a></li>
+                      <li><a href="/categories/roboticssoftwareengineering" class=""> Robotics Software Engineering ({{category[1].size}})</a></li>
                   {% endif %}
                {% endfor %}
             </ul>
@@ -75,18 +75,33 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+        <span class="nav__sub-title">Graduate School Information</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Korea" %}
+                        <li><a href="/categories/korea" class=""> Korea ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Study Abroad" %}
+                        <li><a href="/categories/studyabroad" class=""> Study Abroad ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
         <span class="nav__sub-title">Languages</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "English" %}
-                        <li><a href="/categories/calculus" class=""> English ({{category[1].size}})</a></li>
+                        <li><a href="/categories/english" class=""> English ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Russian" %}
-                        <li><a href="/categories/calculus" class=""> Russian ({{category[1].size}})</a></li>
+                        <li><a href="/categories/russian" class=""> Russian ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
