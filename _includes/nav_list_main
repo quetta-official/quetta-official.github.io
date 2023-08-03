@@ -75,6 +75,21 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+        <span class="nav__sub-title">Languages</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "English" %}
+                        <li><a href="/categories/calculus" class=""> English ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Russian" %}
+                        <li><a href="/categories/calculus" class=""> Russian ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
       </li>
   </ul>
 </nav>
