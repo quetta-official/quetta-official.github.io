@@ -11,14 +11,6 @@
             📂 <span style="font-family:'Cafe24Oneprettynight';">전체 글 수</style> <span style="font-family:'Coming Soon';">{{sum}}</style> <span style="font-family:'Cafe24Oneprettynight';">개</style> 
       </li>
       <li>
-       <span class="nav__sub-title">Robotics Software Engineering</span>
-           <ul>
-               {% for category in site.categories %}
-                  {% if category[0] == "Robotics Software Engineering" %}
-                      <li><a href="/categories/roboticssoftwareengineering" class=""> Robotics Software Engineering ({{category[1].size}})</a></li>
-                  {% endif %}
-               {% endfor %}
-            </ul>
         <span class="nav__sub-title">Blog</span>
             <ul>
                 {% for category in site.categories %}
@@ -52,6 +44,22 @@
                         <li><a href="/categories/linux" class=""> Linux ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
+            </ul>
+        <span class="nav__sub-title">Robotics Engineering</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Robotics Engineering" %}
+                        <li><a href="/categories/roboticsengineering" class=""> Robotics Engineering ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+       <span class="nav__sub-title">Robotics Software Engineering</span>
+           <ul>
+               {% for category in site.categories %}
+                  {% if category[0] == "Robotics Software Engineering" %}
+                      <li><a href="/categories/roboticssoftwareengineering" class=""> Robotics Software Engineering ({{category[1].size}})</a></li>
+                  {% endif %}
+               {% endfor %}
             </ul>
         <span class="nav__sub-title">Mathematics</span>
             <ul>
