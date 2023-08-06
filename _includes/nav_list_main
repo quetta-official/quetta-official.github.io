@@ -48,8 +48,8 @@
         <span class="nav__sub-title">Robotics Engineering</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Robotics Engineering" %}
-                        <li><a href="/categories/roboticsengineering" class=""> Robotics Engineering ({{category[1].size}})</a></li>
+                    {% if category[0] == "Modern Robotics" %}
+                        <li><a href="/categories/modernrobotics" class=""> Modern Robotics ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
