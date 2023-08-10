@@ -2,6 +2,8 @@
 title: "Category"
 layout: archive
 permalink: categories
+toc: true
+toc_sticky: true
 author_profile: true
 sidebar_main: true
 ---
