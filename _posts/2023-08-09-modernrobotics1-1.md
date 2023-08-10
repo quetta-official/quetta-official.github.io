@@ -1,4 +1,4 @@
-![image](https://github.com/Shine-Loi/Shine-Loi.github.io/assets/125112150/5c433571-275d-4a3c-9327-fdfc591d4f01)---
+---
 title:  "[Modern Robotics] Chapter 1-1. Degrees of Freedom of a Rigid Body"
 excerpt: "1. Configuration Space"
 
