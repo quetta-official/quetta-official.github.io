@@ -1,4 +1,4 @@
----
+![image](https://github.com/Shine-Loi/Shine-Loi.github.io/assets/125112150/5c433571-275d-4a3c-9327-fdfc591d4f01)---
 title:  "[Modern Robotics] Chapter 1-1. Degrees of Freedom of a Rigid Body"
 excerpt: "1. Configuration Space"
 
@@ -99,6 +99,11 @@ Configuration을 사용하면 로봇의 모든 점의 위치를 명시할 수 �
 
 &nbsp;
 
+> **2차원에서의 강체의 자유도**\
+> 3 자유도
+
+&nbsp;
+
 ## 2-2. 예2) 3차원 공간에서의 자유도
 [예1)](https://shine-loi.github.io/modern%20robotics/modernrobotics1-1/#2-1-%EC%98%881-2%EC%B0%A8%EC%9B%90-%ED%8F%89%EB%A9%B4%EC%97%90%EC%84%9C%EC%9D%98-%EC%9E%90%EC%9C%A0%EB%8F%84)에서의 동전이 3차원 공간에 존재한다고 가정한다.\
 세 점 \\(A\\), \\(B\\), \\(C\\)의 좌표는 \\((x_A, \ y_A, \ z_A)\\), \\((x_B, \ y_B, \ z_B)\\), \\((x_C, \ y_C, \ z_C)\\)로 나타낼 수 있다.
@@ -123,3 +128,8 @@ Configuration을 사용하면 로봇의 모든 점의 위치를 명시할 수 �
 &nbsp;
 
 이와같이 3차원상의 강체는 6개의 자유도를 가진다.
+
+&nbsp;
+
+> **3차원에서의 강체의 자유도**\
+> 6 자유도
