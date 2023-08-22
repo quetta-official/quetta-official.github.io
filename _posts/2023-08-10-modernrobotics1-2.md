@@ -61,3 +61,30 @@ last_modified_at: 2023-08-22
 \\((자유도)=m(N-1)-\Sigma _{i=1} ^J c_i\\)\
 \\(=m(N-1)-\Sigma _{i=1} ^J (m-f_i)\\)\
 \\(=m(N-1-J)+\Sigma _{i=1} ^J f_i\\)
+
+&nbsp;
+
+\\(N\\): 링크의 개수 (지면도 링크로 간주함)\
+\\(J\\): 관절의 개수\
+\\(m\\): 강체의 자유도 (평면에서 \\(m=3\\), 공간에서 \\(m=6\\))\
+\\(c_i\\): 관절 \\(i\\)가 제공하는 제약조건\
+\\(f_i\\): 관절 \\(i\\)가 제공하는 자유도
+
+&nbsp;
+
+> \\(f_i +c_i =m\\)이 항상 성립
+
+&nbsp;
+
+## 2-1. Example) Four-bar Linkage and Slider-crank Mechanism
+![image](assets/images/Fourbar_Linkage_and_Slidercrank_Mechanism.png)
+
+&nbsp;
+
+**(a) Four-bar Linkage(4절 링크)**\
+\\(N=4\\) (지면 포함)\
+\\(J=4\\)\
+\\(m=3\\) (모든 링크가 평면 위에서 움직이도록 제한됨)\
+\\(f_i =1\\) (각 링크의 자유도는 1)\
+\\(i=1, \ ... \ , \ 4\\)
+\\((자유도)=m(N-1-J)+\Sigma _{i=1} ^J f_i = 3(4-1-4)+\Sigma _{i=1} ^4 1 =-3+4=1\\)
