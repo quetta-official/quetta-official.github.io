@@ -77,7 +77,7 @@ last_modified_at: 2023-08-22
 &nbsp;
 
 ## 2-1. Example) Four-bar Linkage and Slider-crank Mechanism
-![image](assets/images/Fourbar_Linkage_and_Slidercrank_Mechanism.png)
+![image](/assets/images/Fourbar_Linkage_and_Slidercrank_Mechanism.png)
 
 &nbsp;
 
@@ -102,4 +102,4 @@ last_modified_at: 2023-08-22
 &nbsp;
 
 ## 2-2. Example) Some Classical Planar Mechanisms
-![image](assets/images/Some_Classical_Mechanisms.png)
+![image](/assets/images/Some_Classical_Mechanisms.png)
