@@ -88,3 +88,18 @@ last_modified_at: 2023-08-22
 \\(f_i =1\\) (각 링크의 자유도는 1)\
 \\(i=1, \ ... \ , \ 4\\)
 \\((자유도)=m(N-1-J)+\Sigma _{i=1} ^J f_i = 3(4-1-4)+\Sigma _{i=1} ^4 1 =-3+4=1\\)
+
+&nbsp;
+
+**(b) Slider-crank Mechanism**\
+\\(N=4\\) (지면 포함)\
+\\(J=4\\) (3개의 회전형 관절, 1개의 선형 관절)\
+\\(m=3\\) (모든 링크가 평면 위에서 움직이도록 제한됨)\
+\\(f_i =1\\) (각 링크의 자유도는 1)\
+\\(i=1, \ ... \ , \ 4\\)
+\\((자유도)=m(N-1-J)+\Sigma _{i=1} ^J f_i = 3(4-1-4)+\Sigma _{i=1} ^4 1 =-3+4=1\\)
+
+&nbsp;
+
+## 2-2. Example) Some Classical Planar Mechanisms
+![image](assets/images/Some_Classical_Mechanisms.png)
