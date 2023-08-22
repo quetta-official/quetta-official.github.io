@@ -58,4 +58,6 @@ last_modified_at: 2023-08-22
 &nbsp;
 
 # 2. Grübler's Formula
-\((자유도)=m(N-1)-\Sigma _{i=1} ^J c_i\)
+\\((자유도)=m(N-1)-\Sigma _{i=1} ^J c_i\\)\
+\\(=m(N-1)-\Sigma _{i=1} ^J (m-f_i)\\)\
+\\(=m(N-1-J)+\Sigma _{i=1} ^J f_i\\)
