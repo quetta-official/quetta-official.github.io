@@ -43,7 +43,7 @@ last_modified_at: 2023-08-23
 [Chapter 1-4. Configuration and Velcity Constraints]()\
 [Chapter 1-5. Configuration and Velocity Constraints]()\
 [Chapter 1-6. Summary]()\
-[Chapter 1-7. Exercises]()\
+[Chapter 1-7. Exercises]()
 
 &nbsp;
 
@@ -59,7 +59,7 @@ last_modified_at: 2023-08-23
 [Chapter 2-4. Wrenches]()\
 [Chapter 2-5. Summary]()\
 [Chapter 2-6. Software]()\
-[Chapter 2-7. Exercises]()\
+[Chapter 2-7. Exercises]()
 
 &nbsp;
 
