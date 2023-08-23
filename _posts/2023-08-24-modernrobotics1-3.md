@@ -45,7 +45,7 @@ last_modified_at: 2023-08-24
 
 **2) Spherical Pendulum**\
 위상: 구\
-예시 표현: \\([-180\degree , \ 180\degree ) \ \times \ [-90\degree , \ 90\degree]\\)
+예시 표현: \\([-180^\circ , \ 180^\circ ) \ \times \ [-90^\circ , \ 90^\circ]\\)
 
 &nbsp;
 
@@ -57,4 +57,4 @@ last_modified_at: 2023-08-24
 
 **4) Rotating Sliding Knob**\
 위상: 원통\
-예시 표현: \\(\[mathbb{R}\] ^1 \ \times \ [0, \ 2\pi )\\)
+예시 표현: \\(\mathbb{R} ^1 \ \times \ [0, \ 2\pi )\\)
