@@ -28,11 +28,7 @@ last_modified_at: 2023-08-24
 
 &nbsp;
 
-&nbsp;
-
-&nbsp;
-
-# 2. Configuration Space Representation
+## 1-1. Examples
 ![image](/assets/images/MR_Figure2.9.png)
 
 &nbsp;
@@ -79,3 +75,11 @@ last_modified_at: 2023-08-24
 회전하며 미끄러지는 손잡이의 위상은 원통이며 형상은 미끄러진 거리를 나타내는 실수 하나와 \\(0\\)에서 \\(2\pi\\) 사이의 하나의 각도로 나타낼 수 있다.\
 회전하며 미끄러지는 손잡이의 형상은 원통을 자르고 펼쳐서 만든 평면이다.\
 각도 좌표는 \\(0\\)과 \\(2\pi\\) 사이에서 불연속적으로 변한다.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+# 2. Configuration Space Representation
