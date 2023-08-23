@@ -34,8 +34,8 @@ last_modified_at: 2023-08-24
 &nbsp;
 
 **1) Point on a Plane**\
-위상: 평면\
-예시 표현: \\((x, \ y)\\)
+- 위상: 평면\
+- 예시 표현: \\((x, \ y)\\)
 
 &nbsp;
 
@@ -44,8 +44,8 @@ last_modified_at: 2023-08-24
 &nbsp;
 
 **2) Spherical Pendulum**\
-위상: 구\
-예시 표현: \\([-180^\circ , \ 180^\circ ) \ \times \ [-90^\circ , \ 90^\circ]\\)
+- 위상: 구\
+- 예시 표현: \\([-180^\circ , \ 180^\circ ) \ \times \ [-90^\circ , \ 90^\circ]\\)
 
 &nbsp;
 
@@ -55,8 +55,8 @@ last_modified_at: 2023-08-24
 &nbsp;
 
 **3) 2R Robot Arm**\
-위상: 도넛\
-예시 표현: \\([0, \ 2\pi ) \ \times \ [0, \ 2\pi )\\)
+- 위상: 도넛\
+- 예시 표현: \\([0, \ 2\pi ) \ \times \ [0, \ 2\pi )\\)
 
 &nbsp;
 
@@ -67,8 +67,8 @@ last_modified_at: 2023-08-24
 &nbsp;
 
 **4) Rotating Sliding Knob**\
-위상: 원통\
-예시 표현: \\(\mathbb{R} ^1 \ \times \ [0, \ 2\pi )\\)
+- 위상: 원통\
+- 예시 표현: \\(\mathbb{R} ^1 \ \times \ [0, \ 2\pi )\\)
 
 &nbsp;
 
