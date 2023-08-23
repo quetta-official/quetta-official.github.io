@@ -5,7 +5,7 @@ excerpt: "1. Configuration Space"
 categories:
   - Modern Robotics
 tags:
-  - [Robotics, Modern Robotics Degrees of Freedom]
+  - [Robotics, Modern Robotics, Degrees of Freedom]
 
 toc: true
 toc_sticky: true
