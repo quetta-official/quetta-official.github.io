@@ -50,3 +50,11 @@ last_modified_at: 2023-08-24
 &nbsp;
 
 **3) 2R Robot Arm**\
+위상: 도넛\
+예시 표현: \\([0, \ 2\pi ) \ \times \ [0, \ 2\pi )\\)
+
+&nbsp;
+
+**4) Rotating Sliding Knob**\
+위상: 원통\
+예시 표현: \\(\[mathbb{R}\] ^1 \ \times \ [0, \ 2\pi )\\)
