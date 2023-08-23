@@ -28,3 +28,25 @@ last_modified_at: 2023-08-24
 
 &nbsp;
 
+&nbsp;
+
+&nbsp;
+
+# 2. Configuration Space Representation
+![image](/assets/images/MR_Figure2.9.png)
+
+&nbsp;
+
+**1) Point on a Plane**\
+위상: 평면\
+예시 표현: \\((x, \ y)\\)
+
+&nbsp;
+
+**2) Spherical Pendulum**\
+위상: 구\
+예시 표현: \\([-180\degree , \ 180\degree ) \ \times \ [-90\degree , \ 90\degree]\\)
+
+&nbsp;
+
+**3) 2R Robot Arm**\
