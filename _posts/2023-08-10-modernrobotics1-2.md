@@ -76,7 +76,7 @@ last_modified_at: 2023-08-22
 
 &nbsp;
 
-## 2-1. Example) Four-bar Linkage and Slider-crank Mechanism
+## 2-1. Example 1) Four-bar Linkage and Slider-crank Mechanism
 ![image](/assets/images/Fourbar_Linkage_and_Slidercrank_Mechanism.png)
 
 &nbsp;
@@ -86,8 +86,8 @@ last_modified_at: 2023-08-22
 \\(J=4\\)\
 \\(m=3\\) (모든 링크가 평면 위에서 움직이도록 제한됨)\
 \\(f_i =1\\) (각 링크의 자유도는 1)\
-\\(i=1, \ ... \ , \ 4\\)\
 \\((자유도)=m(N-1-J)+\Sigma _{i=1} ^J f_i = 3(4-1-4)+\Sigma _{i=1} ^4 1 =-3+4=1\\)
+> 자유도: \\(1\\)
 
 &nbsp;
 
@@ -96,10 +96,54 @@ last_modified_at: 2023-08-22
 \\(J=4\\) (3개의 회전형 관절, 1개의 선형 관절)\
 \\(m=3\\) (모든 링크가 평면 위에서 움직이도록 제한됨)\
 \\(f_i =1\\) (각 링크의 자유도는 1)\
-\\(i=1, \ ... \ , \ 4\\)\
 \\((자유도)=m(N-1-J)+\Sigma _{i=1} ^J f_i = 3(4-1-4)+\Sigma _{i=1} ^4 1 =-3+4=1\\)
+> 자유도: \\(1\\)
 
 &nbsp;
 
-## 2-2. Example) Some Classical Planar Mechanisms
+## 2-2. Example 2) Some Classical Planar Mechanisms
 ![image](/assets/images/Some_Classical_Mechanisms.png)
+
+&nbsp;
+
+**(a) k-Link Planar Serial Chain**\
+\\(N=k+1\\) (\\(k\\)개 링크, 지면)\
+\\(J=k\\)\
+\\(m=3\\) (모든 링크가 평면 위에서 움직이도록 제한됨)\
+\\(f_i =1\\) (각 링크의 자유도는 1)\
+\\((자유도)=m(N-1-J)+\Sigma _{i=1} ^J f_i = 3((k+1)-1-k)+\Sigma _{i=1} ^k 1=0+k=k\\)
+> 자유도: \\(k\\)
+
+&nbsp;
+
+**(b) Five-bar Planar linkage**\
+\\(N=5\\) (지면은 1개로 취급)\
+\\(J=5\\)\
+\\(m=3\\) (모든 링크가 평면 위에서 움직이도록 제한됨)\
+\\(f_i =1\\) (각 링크의 자유도는 1)\
+\\((자유도)=m(N-1-J)+\Sigma _{i=1} ^J f_i = 3(5-1-5)+\Sigma _{i=1} ^5 1=-3+5=2\\)
+> 자유도: \\(2\\)
+
+&nbsp;
+
+**(c) Stephenson Six-bar Linkage**\
+\\(N=6\\) (지면은 1개로 취급)\
+\\(J=7\\)\
+\\(m=3\\) (모든 링크가 평면 위에서 움직이도록 제한됨)\
+\\(f_i =1\\) (각 링크의 자유도는 1)\
+\\((자유도)=m(N-1-J)+\Sigma _{i=1} ^J f_i = 3(6-1-7)+\Sigma _{i=1} ^7 1=-6+7=1\\)
+> 자유도: \\(1\\)
+
+&nbsp;
+
+**(d) Watt Six-bar Linkage**\
+\\(N=6\\) (지면은 1개로 취급)\
+\\(J=7\\)\
+\\(m=3\\) (모든 링크가 평면 위에서 움직이도록 제한됨)\
+\\(f_i =1\\) (각 링크의 자유도는 1)\
+\\((자유도)=m(N-1-J)+\Sigma _{i=1} ^J f_i = 3(6-1-7)+\Sigma _{i=1} ^7 1=-6+7=1\\)
+> 자유도: \\(1\\)
+
+&nbsp;
+
+## 2-3. Example 3) A Planar Mechanism with Overlapping Joints
