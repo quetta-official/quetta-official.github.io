@@ -39,7 +39,7 @@ last_modified_at: 2023-08-23
 
 [Chapter 1-1. Degrees of Freedom of a Rigid Body](https://shine-loi.github.io/modern%20robotics/modernrobotics1-1/)\
 [Chapter 1-2. Degrees of Freedom of a Robot](https://shine-loi.github.io/modern%20robotics/modernrobotics1-2/)\
-[Chapter 1-3. Configuration Space: Topology and Representation]()\
+[Chapter 1-3. Configuration Space: Topology and Representation](https://shine-loi.github.io/modern%20robotics/modernrobotics1-3/)\
 [Chapter 1-4. Configuration and Velcity Constraints]()\
 [Chapter 1-5. Configuration and Velocity Constraints]()\
 [Chapter 1-6. Summary]()\
