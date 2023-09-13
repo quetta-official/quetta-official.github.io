@@ -15,6 +15,7 @@
         <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
         <!--예: Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
         <!--예: category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+
         <span class="nav__sub-title">Blog</span>
             <ul>
                 {% for category in site.categories %}
@@ -23,6 +24,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+
         <span class="nav__sub-title">Programming Languages</span>
             <ul>
                 {% for category in site.categories %}
@@ -45,6 +47,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+
         <span class="nav__sub-title">Robotics Engineering</span>
             <ul>
                 {% for category in site.categories %}
@@ -60,6 +63,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+
        <span class="nav__sub-title">Robotics Software Engineering</span>
            <ul>
                {% for category in site.categories %}
@@ -68,6 +72,16 @@
                   {% endif %}
                {% endfor %}
             </ul>
+
+       <span class="nav__sub-title">Software</span>
+           <ul>
+               {% for category in site.categories %}
+                  {% if category[0] == "Wireless Communications and Networks" %}
+                      <li><a href="/categories/wirelesscommunicationsandnetworks" class=""> Wireless Communications and Networks ({{category[1].size}})</a></li>
+                  {% endif %}
+               {% endfor %}
+            </ul>
+
         <span class="nav__sub-title">Mathematics</span>
             <ul>
                 {% for category in site.categories %}
@@ -90,6 +104,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+
         <span class="nav__sub-title">Graduate School Information</span>
             <ul>
                 {% for category in site.categories %}
@@ -105,6 +120,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+
         <span class="nav__sub-title">Languages</span>
             <ul>
                 {% for category in site.categories %}
@@ -120,6 +136,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+
         <span class="nav__sub-title">Taekwondo</span>
             <ul>
                 {% for category in site.categories %}
