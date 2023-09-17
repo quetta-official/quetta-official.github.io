@@ -42,7 +42,7 @@ last_modified_at: 2023-09-18
 \\(^A P\\)는 좌표계 \\(A\\)에서 측정된 점 \\(P\\)의 위치를 의미한다.
 \\[^A P=\left[ \begin{matrix} P_x \cr P_y \cr P_z \end{matrix} \right]\\]
 
-![image]()
+![image](/assets/images/IR_Figure2.1.png)
 
 &nbsp;
 
@@ -73,13 +73,13 @@ Rotation Matrix는 Unit Vector의 Dot Product로 나타낼 수 있다.
 &nbsp;
 
 ## 4-1. Example
-![image]()
+![image](/assets/images/IR_Figure2.1ex1.png)
 
 &nbsp;
 
 \\(^A _B R=\left[ \begin{matrix} 0 & 1 & 0 \cr 0 & 0 & 1 \cr 1 & 0 & 0 \end{matrix} \right] \\)
 
-![image]()
+![image](/assets/images/IR_Figure2.1ex2.png)
 
 &nbsp;
 
