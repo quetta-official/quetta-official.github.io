@@ -1,4 +1,4 @@
-![image](https://github.com/Shine-Loi/Shine-Loi.github.io/assets/125112150/784bb8f1-a843-4733-8dfa-9ce2906ac0cb)---
+---
 title:  "[Introduction to Robotics] Chapter 1-1. Descriptions: Positions, Orientations, and Frames"
 excerpt: "1. Spatial Descriptions and Transformations"
 
