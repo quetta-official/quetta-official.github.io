@@ -1,4 +1,4 @@
----
+![image](https://github.com/Shine-Loi/Shine-Loi.github.io/assets/125112150/26701360-30c8-41ee-b7f4-ef1c56758f22)---
 title:  "[Introduction to Robotics] Chapter 1-1. Descriptions: Positions, Orientations, and Frames"
 excerpt: "1. Spatial Descriptions and Transformations"
 
@@ -40,7 +40,9 @@ last_modified_at: 2023-09-18
 # 3. Description of a position
 좌표계가 설정되면 어떠한 점도 \\(3 \times 1\\) Position vector로 나타낼 수 있다.\
 \\(^A P\\)는 좌표계 \\( \{ A \} \\)에서 측정된 점 \\(P\\)의 위치를 의미한다.
-\\[^A P=\left[ \begin{matrix} P_x \ P_y \ P_z \end{matrix} \right]\\]
+\\[^A P=\left[ \begin{matrix} P_x \cr P_y \cr P_z \end{matrix} \right]\\]
+
+![image]()
 
 &nbsp;
 
@@ -49,3 +51,4 @@ last_modified_at: 2023-09-18
 &nbsp;
 
 # 4. Description of an Orientation
+공간상의 점을 표시하기 위해 Orientation을 표시해야 할 수도 있다.\
