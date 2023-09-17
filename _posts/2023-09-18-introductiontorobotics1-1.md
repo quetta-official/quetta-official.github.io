@@ -62,7 +62,7 @@ last_modified_at: 2023-09-18
 &nbsp;
 
 \\(\Rrightarrow ^B _A R=^A _B R^T\\)\
-\\(^B _A R \ ^A _B R^T \ ^B _A R = \left[ \begin{matrix} ^A \hat X ^T _B \cr ^A \hat Y ^T _B \cr ^A \hat Z ^T _B \end{matrix} \right] \left[ \begin{matrix} ^A \hat X _B & ^A \hat Y _B & ^A \hat Z _B \end{matrix} \right] = I_3 \\)\
+\\(^A _B R^T \ ^B _A R = \left[ \begin{matrix} ^A \hat X ^T _B \cr ^A \hat Y ^T _B \cr ^A \hat Z ^T _B \end{matrix} \right] \left[ \begin{matrix} ^A \hat X _B & ^A \hat Y _B & ^A \hat Z _B \end{matrix} \right] = I_3 \\)\
 즉 두 행렬은 전치행렬이자 역행렬 관계
 
 &nbsp;
@@ -96,3 +96,9 @@ Ex2)\
 &nbsp;
 
 # 5. Description of a Frame
+Frame \\(B\\)는 \\(^A _B R\\)과 \\(^A P _{BORG} \\)로 표시된다.\
+\\(^A P _{BORG} \\)는 Frame \\(A\\)에서 Frame \\(B\\)의 원점을 가리키는 벡터이다.
+
+- \\(^A _B R\\): Position Vector
+- \\(^A P _{BORG} \\): Orientation
+- \\(B= \{ ^A _B R, \ ^A P _{BORG} \} \\)
