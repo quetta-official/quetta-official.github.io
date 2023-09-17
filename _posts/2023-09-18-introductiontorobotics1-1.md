@@ -62,7 +62,7 @@ last_modified_at: 2023-09-18
 &nbsp;
 
 Rotation Matrix는 Unit vector의 Dot product로 나타낼 수 있다.
-\\[^A _B R=\left[ \begin{matrix} ^A \hat X _B & ^A \hat Y _B & ^A \hat Z _B \end{matrix} \right] = \left[ \begin{matrix} \hat X _B \dot \hat X _A & \hat Y _B \dot \hat X _A & \hat Z _B \dot \hat X _A \cr \hat X _B \dot \hat Y _A & \hat Y _B \dot \hat Y _A & \hat Z _B \dot \hat Y _A \cr \hat X _B \dot \hat Z _A & \hat Y _B \dot \hat Z _A & \hat Z _B \dot \hat Z _A \end{matrix} \right]\\]
+\\[^A _B R=\left[ \begin{matrix} ^A \hat X _B & ^A \hat Y _B & ^A \hat Z _B \end{matrix} \right] = \left[ \begin{matrix} \hat X _B \cdot \hat X _A & \hat Y _B \cdot \hat X _A & \hat Z _B \cdot \hat X _A \cr \hat X _B \cdot \hat Y _A & \hat Y _B \cdot \hat Y _A & \hat Z _B \cdot \hat Y _A \cr \hat X _B \cdot \hat Z _A & \hat Y _B \cdot \hat Z _A & \hat Z _B \cdot \hat Z _A \end{matrix} \right]\\]
 
 &nbsp;
 
@@ -71,7 +71,7 @@ Rotation Matrix는 Unit vector의 Dot product로 나타낼 수 있다.
 
 &nbsp;
 
-\\{^A _B R=\left[ \begin{matrix} 0 & 1 & 0 \cr 0 & 0 & 1 \cr 1 & 0 & 0 \end{matrix} \right]\\)
+\\{^A _B R=\left[ \begin{matrix} 0 & 1 & 0 \cr 0 & 0 & 1 \cr 1 & 0 & 0 \end{matrix} \right] \\)
 
 ![image]()
-\\{^A _B R=\left[ \begin{matrix} c\theta & -s\theta & 0 \cr s\theta & c\theta & 0 \cr 0 & 0 & 1 \end{matrix} \right]\\)
+\\{^A _B R=\left[ \begin{matrix} c\theta & -s\theta & 0 \cr s\theta & c\theta & 0 \cr 0 & 0 & 1 \end{matrix} \right] \\)
