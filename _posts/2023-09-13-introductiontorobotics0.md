@@ -25,7 +25,7 @@ last_modified_at: 2023-09-14
 
 &nbsp;
 
-[Chapter 1-1. Descriptions: Positions, Orientations, and Frames]()\
+[Chapter 1-1. Descriptions: Positions, Orientations, and Frames](https://shine-loi.github.io/introduction%20to%20robotics/introductiontorobotics1-1/)\
 [Chapter 1-2. Mappings: Changing Descriptions from Frame to Frame]()\
 [Chapter 1-3. Operators: Translations, Rotations, and Transformations]()\
 [Chapter 1-4. Summary of Interpretations]()\
