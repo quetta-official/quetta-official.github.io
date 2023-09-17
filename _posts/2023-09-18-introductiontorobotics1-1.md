@@ -40,4 +40,12 @@ last_modified_at: 2023-09-18
 # 3. Description of a position
 좌표계가 설정되면 어떠한 점도 \\(3 \times 1\\) Position vector로 나타낼 수 있다.\
 \\(^A P\\)는 좌표계 \\( \{ A \} \\)에서 측정된 점 \\(P\\)의 위치를 의미한다.
-\\[^A P=\left[ \begin{matrix} P_x \\ P_y \\ P_z \end{matrix} \right]\\]
+\\[^A P=\left[ \begin{matrix} P_x \ P_y \ P_z \end{matrix} \right]\\]
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+# 4. Description of an Orientation
