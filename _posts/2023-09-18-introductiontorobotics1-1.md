@@ -29,7 +29,7 @@ last_modified_at: 2023-09-18
 &nbsp;
 
 # 2. Description
-조작 시스템이 다루는 다양한 객체의 속성을 지정한다.\
+조작 시스템이 다루는 다양한 객체의 속성을 지정한다.
 
 &nbsp;
 
@@ -40,3 +40,4 @@ last_modified_at: 2023-09-18
 # 3. Description of a position
 좌표계가 설정되면 어떠한 점도 \\(3 \times 1\\) Position vector로 나타낼 수 있다.\
 \\(^A P\\)는 좌표계 \\(\{A\}\\)에서 측정된 점 \\(P\\)의 위치를 의미한다.
+\\[^A P=\left[ \begin{array} P_x \\ P_y \\ P_z \end{array} \right]\\]
