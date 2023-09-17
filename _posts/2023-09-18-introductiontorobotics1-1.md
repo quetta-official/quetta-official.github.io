@@ -1,4 +1,4 @@
----
+![image](https://github.com/Shine-Loi/Shine-Loi.github.io/assets/125112150/784bb8f1-a843-4733-8dfa-9ce2906ac0cb)---
 title:  "[Introduction to Robotics] Chapter 1-1. Descriptions: Positions, Orientations, and Frames"
 excerpt: "1. Spatial Descriptions and Transformations"
 
@@ -57,4 +57,21 @@ last_modified_at: 2023-09-18
 &nbsp;
 
 좌표계 \\(A\\)에서 볼 때 좌표계 \\(B\\)의 축 벡터 표기는 다음과 같이 나타낸다.
-\\[Rotation Matrix: \ ^A _B R=\left[ \begin{matrix} ^A \hat X _B & ^A \hat Y _B & ^A \hat Z _B \end{matrix} \right] =\left[ \begin{matrix} ^B \hat X ^T _A \cr ^B \hat Y ^T _A \cr ^B \hat Z ^T _A \end{matrix} \right] \\]
+\\[Rotation \ Matrix: \ ^A _B R=\left[ \begin{matrix} ^A \hat X _B & ^A \hat Y _B & ^A \hat Z _B \end{matrix} \right] =\left[ \begin{matrix} ^B \hat X ^T _A \cr ^B \hat Y ^T _A \cr ^B \hat Z ^T _A \end{matrix} \right] \\]
+
+&nbsp;
+
+Rotation Matrix는 Unit vector의 Dot product로 나타낼 수 있다.
+\\[^A _B R=\left[ \begin{matrix} ^A \hat X _B & ^A \hat Y _B & ^A \hat Z _B \end{matrix} \right] = \left[ \begin{matrix} \hat X _B \dot \hat X _A & \hat Y _B \dot \hat X _A & \hat Z _B \dot \hat X _A \cr \hat X _B \dot \hat Y _A & \hat Y _B \dot \hat Y _A & \hat Z _B \dot \hat Y _A \cr \hat X _B \dot \hat Z _A & \hat Y _B \dot \hat Z _A & \hat Z _B \dot \hat Z _A \end{matrix} \right]\\]
+
+&nbsp;
+
+## 4-1. Example
+![image]()
+
+&nbsp;
+
+\\{^A _B R=\left[ \begin{matrix} 0 & 1 & 0 \cr 0 & 0 & 1 \cr 1 & 0 & 0 \end{matrix} \right]\\)
+
+![image]()
+\\{^A _B R=\left[ \begin{matrix} c\theta & -s\theta & 0 \cr s\theta & c\theta & 0 \cr 0 & 0 & 1 \end{matrix} \right]\\)
