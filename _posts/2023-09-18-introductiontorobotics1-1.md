@@ -57,4 +57,4 @@ last_modified_at: 2023-09-18
 &nbsp;
 
 좌표계 \\(A\\)에서 볼 때 좌표계 \\(B\\)의 축 벡터 표기는 다음과 같이 나타낸다.
-\\[Rotation Matrix: \ ^A _B R=\left[ ^A \hat X _B & ^A \hat Y _B & ^A \hat Z _B \right] =\left[ ^B \hat X ^T _A \cr ^B \hat Y ^T _A \cr ^B \hat Z ^T _A \right] \\]
+\\[Rotation Matrix: \ ^A _B R=\left[ ^A \hat X _B \ ^A \hat Y _B \ ^A \hat Z _B \right] =\left[ ^B \hat X ^T _A \cr ^B \hat Y ^T _A \cr ^B \hat Z ^T _A \right] \\]
