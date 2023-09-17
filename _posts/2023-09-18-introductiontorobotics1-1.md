@@ -62,7 +62,7 @@ last_modified_at: 2023-09-18
 &nbsp;
 
 \\(\Rrightarrow ^B _A R=^A _B R^T\\)\
-\\(^B _A R \ ^A _B R^T \ ^B _A R = \left[ \begin{matrix} ^A \hat X ^T _B \cr ^A \hat Y ^T _B \cr ^A \hat Z ^T _B \end{matrix} \right] \left[ ^A \hat X _B & ^A \hat Y _B & ^A \hat Z _B \end{matrix} \right] = I_3 \\)\
+\\(^B _A R \ ^A _B R^T \ ^B _A R = \left[ \begin{matrix} ^A \hat X ^T _B \cr ^A \hat Y ^T _B \cr ^A \hat Z ^T _B \end{matrix} \right] \left[ \begin{matrix} ^A \hat X _B & ^A \hat Y _B & ^A \hat Z _B \end{matrix} \right] = I_3 \\)\
 즉 두 행렬은 전치행렬이자 역행렬 관계
 
 &nbsp;
