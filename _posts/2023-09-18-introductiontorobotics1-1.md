@@ -1,4 +1,4 @@
-![image](https://github.com/Shine-Loi/Shine-Loi.github.io/assets/125112150/26701360-30c8-41ee-b7f4-ef1c56758f22)---
+---
 title:  "[Introduction to Robotics] Chapter 1-1. Descriptions: Positions, Orientations, and Frames"
 excerpt: "1. Spatial Descriptions and Transformations"
 
@@ -52,3 +52,9 @@ last_modified_at: 2023-09-18
 
 # 4. Description of an Orientation
 공간상의 점을 표시하기 위해 Orientation을 표시해야 할 수도 있다.\
+좌표계 \\(\{ B\} \\)에 대해 표시된 점의 위치를 좌표계 \\(\{ A\} \\)에 대해 표시할 경우 Orientation을 사용할 수 있다.
+
+&nbsp;
+
+좌표계 \\(\{ A\} \\)에서 볼 때 좌표계 \\(\{ B\} \\)의 축 벡터 표기는 다음과 같이 나타낸다.
+\\[^A _B R=\left[ ^A \hat{X} _B & ^A \hat{Y} _B & ^A \hat{Z} _B \right] \\]
