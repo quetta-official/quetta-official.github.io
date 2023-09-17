@@ -61,7 +61,13 @@ last_modified_at: 2023-09-18
 
 &nbsp;
 
-Rotation Matrix는 Unit vector의 Dot product로 나타낼 수 있다.
+\\(\Rrightarrow ^B _A R=^A _B R^T\\)\
+\\(^B _A R \ ^A _B R^T \ ^B _A R = \left[ \begin{matrix} ^A \hat X ^T _B \cr ^A \hat Y ^T _B \cr ^A \hat Z ^T _B \end{matrix} \right] \left[ ^A \hat X _B & ^A \hat Y _B & ^A \hat Z _B \end{matrix} \right] = I_3 \\)\
+즉 두 행렬은 전치행렬이자 역행렬 관계
+
+&nbsp;
+
+Rotation Matrix는 Unit Vector의 Dot Product로 나타낼 수 있다.
 \\[^A _B R=\left[ \begin{matrix} ^A \hat X _B & ^A \hat Y _B & ^A \hat Z _B \end{matrix} \right] = \left[ \begin{matrix} \hat X _B \cdot \hat X _A & \hat Y _B \cdot \hat X _A & \hat Z _B \cdot \hat X _A \cr \hat X _B \cdot \hat Y _A & \hat Y _B \cdot \hat Y _A & \hat Z _B \cdot \hat Y _A \cr \hat X _B \cdot \hat Z _A & \hat Y _B \cdot \hat Z _A & \hat Z _B \cdot \hat Z _A \end{matrix} \right]\\]
 
 &nbsp;
@@ -74,4 +80,15 @@ Rotation Matrix는 Unit vector의 Dot product로 나타낼 수 있다.
 \\(^A _B R=\left[ \begin{matrix} 0 & 1 & 0 \cr 0 & 0 & 1 \cr 1 & 0 & 0 \end{matrix} \right] \\)
 
 ![image]()
+
+&nbsp;
+
 \\(^A _B R=\left[ \begin{matrix} c\theta & -s\theta & 0 \cr s\theta & c\theta & 0 \cr 0 & 0 & 1 \end{matrix} \right] \\)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+# 5. Description of a Frame
