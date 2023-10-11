@@ -39,7 +39,7 @@ last_modified_at: 2023-09-18
 
 # 3. Description of a position
 좌표계가 설정되면 어떠한 점도 \\(3 \times 1\\) Position vector로 나타낼 수 있다.\
-\\(^A P\\)는 좌표계 \\(A\\)에서 측정된 점 \\(P\\)의 위치를 의미한다.
+\\(^A P\\)는 좌표계 \\(\lbrace A\rbrace \\)에서 측정된 점 \\(P\\)의 위치를 의미한다.
 \\[^A P=\left[ \begin{matrix} P_x \cr P_y \cr P_z \end{matrix} \right]\\]
 
 ![image](/assets/images/IR_Figure2.1.png)
@@ -52,11 +52,11 @@ last_modified_at: 2023-09-18
 
 # 4. Description of an Orientation
 공간상의 점을 표시하기 위해 Orientation을 표시해야 할 수도 있다.\
-좌표계 \\(B\\)에 대해 표시된 점의 위치를 좌표계 \\(A\\)에 대해 표시할 경우 Orientation을 사용할 수 있다.
+좌표계 \\(\lbrace B\rbrace \\)에 대해 표시된 점의 위치를 좌표계 \\(\lbrace A\rbrace \\)에 대해 표시할 경우 Orientation을 사용할 수 있다.
 
 &nbsp;
 
-좌표계 \\(A\\)에서 볼 때 좌표계 \\(B\\)의 축 벡터 표기는 다음과 같이 나타낸다.
+좌표계 \\(\lbrace A\rbrace \\)에서 볼 때 좌표계 \\(\lbrace B\rbrace \\)의 축 벡터 표기는 다음과 같이 나타낸다.
 \\[Rotation \ Matrix: \ ^A _B R=\left[ \begin{matrix} ^A \hat X _B & ^A \hat Y _B & ^A \hat Z _B \end{matrix} \right] =\left[ \begin{matrix} ^B \hat X ^T _A \cr ^B \hat Y ^T _A \cr ^B \hat Z ^T _A \end{matrix} \right] \\]
 
 &nbsp;
@@ -96,9 +96,9 @@ Ex2)\
 &nbsp;
 
 # 5. Description of a Frame
-Frame \\(B\\)는 \\(^A _B R\\)과 \\(^A P _{BORG} \\)로 표시된다.\
-\\(^A P _{BORG} \\)는 Frame \\(A\\)에서 Frame \\(B\\)의 원점을 가리키는 벡터이다.
+Frame \\(\lbrace B\rbrace \\)는 \\(^A _B R\\)과 \\(^A P _{BORG} \\)로 표시된다.\
+\\(^A P _{BORG} \\)는 Frame \\(\lbrace A\rbrace \\)에서 Frame \\(\lbrace B\rbrace \\)의 원점을 가리키는 벡터이다.
 
 - \\(^A _B R\\): Position Vector
 - \\(^A P _{BORG} \\): Orientation
-- \\(B= \left{ ^A _B R, \ ^A P _{BORG} \right} \\)
+- \\(B= \lbrace ^A _B R, \ ^A P _{BORG} \rbrace \\)
