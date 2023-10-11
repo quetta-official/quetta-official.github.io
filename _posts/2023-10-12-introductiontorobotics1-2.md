@@ -56,8 +56,8 @@ last_modified_at: 2023-10-12
 
 \\(^A _B R\\), \\(^B P\\)의 Dot Product를 구하면 \\(^A P\\)를 구할 수 있다.
 \\[^A p_x =B \hat{X} _A \cdot ^B P, \ ^A p_y =B \hat{Y} _A \cdot ^B P, \ ^A p_z =B \hat{Z} _A \cdot ^B P \\]
-\\[\left[ \begin{matrix} ^B \hat{X} ^T _A \ ^B P \cr ^B \hat{Y} ^T _A \ ^B P \cr ^B \hat{Z} ^T _A \ ^B P \end{matrix} \right] \\]
-\\[ \rightarrow ^A P=^A _B R \ ^B P\\]
+\\[\rightarrow \left[ \begin{matrix} ^B \hat{X} ^T _A \ ^B P \cr ^B \hat{Y} ^T _A \ ^B P \cr ^B \hat{Z} ^T _A \ ^B P \end{matrix} \right] \\]
+\\[^A P=^A _B R \ ^B P\\]
 
 &nbsp;
 
