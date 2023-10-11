@@ -101,4 +101,4 @@ Frame \\(B\\)는 \\(^A _B R\\)과 \\(^A P _{BORG} \\)로 표시된다.\
 
 - \\(^A _B R\\): Position Vector
 - \\(^A P _{BORG} \\): Orientation
-- \\(B= \left\{ ^A _B R, \ ^A P _{BORG} \right\} \\)
+- \\(B= \left{ ^A _B R, \ ^A P _{BORG} \right} \\)
