@@ -27,7 +27,7 @@ last_modified_at: 2023-10-12
 &nbsp;
 
 # 1. Mappings involving translated frames
-!image[]
+!image[/assets/images/IR_Figure2.4.png]
 
 &nbsp;
 
@@ -50,6 +50,6 @@ last_modified_at: 2023-10-12
 한 frame의 orientation을 다른 frame의 좌표로 표현하는 방법\
 좌표계 \\(A\\)에 대한 좌표계 \\(B\\)를 표현하는 Rotation matrix은 \\(^A _B R\\)이라 한다.\
 \\[^A _B R=^B _A R^{-1} =^B _A R^T \\]
-\\[^A _B R=\left[ ^A \hat{X} _B & ^A \hat{Y} _B & ^A \hat{Z} _B \right] = left[ ^B \hat{X} ^T _A \cr ^B \hat{Y} ^T _A \cr ^B \hat{Z} ^T _A \right] \\]
+\\[^A _B R=\left[ \begin{matrix} ^A \hat{X} _B & ^A \hat{Y} _B & ^A \hat{Z} _B \end{matrix} \right] = left[ \begin{matrix} ^B \hat{X} ^T _A \cr ^B \hat{Y} ^T _A \cr ^B \hat{Z} ^T _A \end{matrix} \right] \\]
 
 &nbsp;
