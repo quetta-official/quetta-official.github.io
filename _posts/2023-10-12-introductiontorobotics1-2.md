@@ -55,7 +55,7 @@ last_modified_at: 2023-10-12
 &nbsp;
 
 \\(^A _B R\\), \\(^B P\\)를 내적하면 \\(^A P\\)를 구할 수 있다.
-\\[ \left[ \begin{matrix} ^A p_x =B \hat{X} _A \dot ^B P \cr ^A p_y =B \hat{Y} _A \dot ^B P \cr ^A p_z =B \hat{Z} _A \dot ^B P \end{matrix} \right] = \left[ \begin{matrix} ^B \hat{X} ^T _A ^B P \cr ^B \hat{Y} ^T _A ^B P \cr ^B \hat{Z} ^T _A ^B P \end{matrix} \right] \\]
+\\[ \left[ \begin{matrix} ^A p_x =B \hat{X} _A \ ^B P \cr ^A p_y =B \hat{Y} _A \ ^B P \cr ^A p_z =B \hat{Z} _A \ ^B P \end{matrix} \right] = \left[ \begin{matrix} ^B \hat{X} ^T _A ^B P \cr ^B \hat{Y} ^T _A ^B P \cr ^B \hat{Z} ^T _A ^B P \end{matrix} \right] \\]
 
 &nbsp;
 
@@ -64,11 +64,11 @@ last_modified_at: 2023-10-12
 
 &nbsp;
 
-Frame \\(B\\)가 Frame \\(A\\)에 대해 \\(Z\\)축을 기준으로 \\(30^{\circ} \\) 회전했을 때 Rotation matrix.
+Frame \\(\lbrace B \rbrace \\)가 Frame \\(\lbrace A \rbrace \\)에 대해 \\(Z\\)축을 기준으로 \\(30^\circ \\) 회전했을 때 Rotation matrix.
 
 &nbsp;
 
-\\[^A _B R = \left[ \begin{matrix} c30^\circ & -s30^\circ & 0 \cr s30^\circ & c30^\circ & 0 \cr 0 & 0 & 1 \end{matrix} \right] = \left[ \begin{matrix} 0.866 & -0.500 & 0.000 \cr 0.500 & 0.866 & 0.000 \cr 0.000 & 0.000 & 1.000 \end{matrix} \right]
+\\[^A _B R = \left[ \begin{matrix} c30^\circ & -s30^\circ & 0 \cr s30^\circ & c30^\circ & 0 \cr 0 & 0 & 1 \end{matrix} \right] = \left[ \begin{matrix} 0.866 & -0.500 & 0.000 \cr 0.500 & 0.866 & 0.000 \cr 0.000 & 0.000 & 1.000 \end{matrix} \right] \\]
 
 &nbsp;
 
