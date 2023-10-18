@@ -31,7 +31,6 @@ last_modified_at: 2023-09-14
 [Chapter 1-4. Transformation Arithmetic](https://shine-loi.github.io/introduction%20to%20robotics/introductiontorobotics1-4/)\
 [Chapter 1-5. Transform Equations](https://shine-loi.github.io/introduction%20to%20robotics/introductiontorobotics1-5/)\
 [Chapter 1-6. More on Representation of Orientation](https://shine-loi.github.io/introduction%20to%20robotics/introductiontorobotics1-6/)\
-[Chapter 1-7. Computational Considerations]()
 
 &nbsp;
 
@@ -39,7 +38,7 @@ last_modified_at: 2023-09-14
 
 &nbsp;
 
-[Chapter 2-1. Link Description]()\
+[Chapter 2-1. Link Description](https://shine-loi.github.io/introduction%20to%20robotics/introductiontorobotics2-1/)\
 [Chapter 2-2. Link-connection Description]()\
 [Chapter 2-3. Convention for Affixing Frames to Links]()\
 [Chapter 2-4. Manipulator Kinematics]()\
