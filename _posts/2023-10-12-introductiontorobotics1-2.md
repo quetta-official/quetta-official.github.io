@@ -79,3 +79,19 @@ Frame \\(\lbrace B \rbrace \\)가 Frame \\(\lbrace A \rbrace \\)에 대해 \\(Z\
 &nbsp;
 
 # 3. Mappings involving general frames
+![image](/assets/images/IR_Figure2.7.png)
+
+&nbsp;
+
+구하고자 하는 것: \\(^A P\\)\
+Frame \\(\lbrace A\rbrace \\)를 기준으로 Frame \\(\lbrace B\rbrace \\)의 원점을 가리키는 벡터: \\(^A P_{BORG}\\)\
+Frame \\(\lbrace B\rbrace \\)를 Frame \\(\lbrace A\rbrace \\)의 방향으로 회전시키는 Rotation Matrix: \\(^A _B R\\)
+
+&nbsp;
+
+General Transformation Mapping: \\(^A P=^A _B R ^B P+ ^A P_{BORG}\\)\
+Conceptual form(간단히 표현): \\(^A P=^A _B T ^B P\\)
+
+&nbsp;
+
+Homogeneous Transformation Matrix: \\(\left[ \begin{matrix} ^A P \cr 1\end{matrix} \right] =^A _B T \left[ \berin{matrix} ^B P \cr 1\end{matrix} \right] =\left[ \begin{matrix} ^A _B R & ^A P_{BORG} \cr 0_{1\times 3} & 1\end{matrix} \right] \left[ \berin{matrix} ^B P \cr 1\end{matrix} \right] \\)
