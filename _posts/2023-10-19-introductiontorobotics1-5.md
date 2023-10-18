@@ -42,3 +42,6 @@ last_modified_at: 2023-10-19
 
 &nbsp;
 
+\\(^T_G T =\left[ \begin{matrix} 1 & 0 & 0 & 0 \cr 0 & 1 & 0 & 0 \cr 0 & 0 & 1 & 0 \cr 0 & 0 & 0 & 1 \end{matrix} \right] \\)일 때 볼트를 잡을 수 있다.
+
+\\(^T_G T = ^B_T T^{-1} \ ^B_S T \ ^S_G T\\)
