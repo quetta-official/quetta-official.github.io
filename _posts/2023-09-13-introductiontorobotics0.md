@@ -40,7 +40,7 @@ last_modified_at: 2023-09-14
 
 [Chapter 2-1. Link Description](https://shine-loi.github.io/introduction%20to%20robotics/introductiontorobotics2-1/)\
 [Chapter 2-2. Convention for Affixing Frames to Links](https://shine-loi.github.io/introduction%20to%20robotics/introductiontorobotics2-2/)\
-[Chapter 2-3. Manipulator Kinematics]()\
+[Chapter 2-3. Manipulator Kinematics](https://shine-loi.github.io/introduction%20to%20robotics/introductiontorobotics2-3/)\
 [Chapter 2-4. Actuator Space, Joint Space, and Cartesian Space]()\
 [Chapter 2-5. Examples: Kinematics of Two Industrial Robots]()\
 [Chapter 2-6. Frames with Standard Names]()\
