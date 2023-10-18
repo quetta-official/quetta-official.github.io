@@ -38,12 +38,15 @@ Frame \\(\lbrace A\rbrace \\)에 대해 Frame \\(\lbrace B\rbrace \\)를 \\(X_A\
 
 \\(^A_B R_{XYZ} (\gamma, \ \beta, \ \alpha )=\left[ \begin{matrix} c\alpha \ c\beta & c\alpha \ s\beta \ s\gamma -s\alpha \ c\gamma & c\alpha \ s\beta \ c\gamma +s\alpha \ s\gamma \cr s\alpha \ c\beta & s\alpha \ s\beta \ s\gamma +c\alpha \ c\gamma & s\alpha \ s\beta \ c\gamma -c\alpha \ s\gamma \cr -s\beta & c\beta \ s\gamma & c\beta \ c\gamma \end{matrix} \right] \\)
 
-\\(^A_B R_{XYZ} (\gamma, \ \beta, \ \alpha )=\left[ \begin{matrix} r_{11} & r_{12} & r_{13} \cr r_{21} & r_{22} & r_{23} \cr r_{31} & r_{32} & r_{33} \end{matrix} \right]
+\\(^A_B R_{XYZ} (\gamma, \ \beta, \ \alpha )=\left[ \begin{matrix} r_{11} & r_{12} & r_{13} \cr r_{21} & r_{22} & r_{23} \cr r_{31} & r_{32} & r_{33} \end{matrix} \right] \\)
 
 &nbsp;
 
-\\(\beta =Atan2(-r_{31}, \ \sqrt{r^2_{11} +r^2_{21}}) \\), \\(-90^\circ <\beta <90^\circ \\)
+\\(\beta =Atan2(-r_{31}, \ \sqrt{r^2_{11} +r^2_{21}}) \\), where \\(-90^\circ <\beta <90^\circ \\)
+
 \\(\alpha =Atan2(\dfrac{r_{21}}{c\beta} , \ \dfrac{r_{11}}{c\beta}) \\)
+
+\\(\gamma =Atan2(\dfrac{r_{32}}{c\beta} , \ \dfrac{r_{33}}{c\beta}) \\)
 
 - \\(\beta\\)를 먼저 구해야 \\(\alpha\\), \\(\gamma\\)를 구할 수 있다.
 - \\(cos\beta =0\\)이면 \\(\alpha\\), \\(\gamma\\)가 정의되지 않는다.
