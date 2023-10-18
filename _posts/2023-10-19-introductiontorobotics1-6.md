@@ -50,3 +50,40 @@ Frame \\(\lbrace A\rbrace \\)에 대해 Frame \\(\lbrace B\rbrace \\)를 \\(X_A\
 
 - \\(\beta\\)를 먼저 구해야 \\(\alpha\\), \\(\gamma\\)를 구할 수 있다.
 - \\(cos\beta =0\\)이면 \\(\alpha\\), \\(\gamma\\)가 정의되지 않는다.
+
+&nbsp;
+
+## 2-1. \\(\beta =\pm 90.0^\circ \\)인 경우
+다음과 같이 계산할 수 있다.
+1) \\(\beta =90.0^\circ \\)인 경우
+   \\(\beta =90.0^\circ \\)
+
+   \\(\alpha =0.0\\)
+
+   \\(\gamma =Atan2(r_{12} , \ r_{22}) \\)
+2) \\(\beta =-90.0^\circ \\)인 경우
+   \\(\beta =-90.0^\circ \\)
+
+   \\(\alpha =0.0\\)
+
+   \\(\gamma =-Atan2(r_{12} , \ r_{22}) \\)
+
+&nbsp;
+
+## 2-2. \\(Atan2(y, \ x)\\) 함수를 사용하는 이유
+\\(x=1\\), \\(y=1\\)인 경우와 \\(x=-1\\), \\(y=-1\\)인 경우가 있다.\
+\\(Atan(\dfrac yx )\\)를 사용하면 두 경우에 대해 같은 값을 반환한다.\
+이러한 문제를 해결하기 위해 \\(Atan2(y, \ x)\\) 함수를 사용한다.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+# 3. Equivalent Angle-axis Representation
+\\(^A_B R_K (\theta)=\left[ \begin{matrix} r_{11} & r_{12} & r_{13} \cr r_{21} & r_{22} & r_{23} \cr r_{31} & r_{32} & r_{33} \end{matrix} \right] \\)라면 다음을 만족한다.
+
+\\(\theta =Acos(\dfrac{r_{11} +r_{12}+r_{33} -1}2)
+
+\\(\hat{K} =\dfrac 1{2sin\theta} \left[ \begin{matrix} r_{32} -r_{23} \cr r_{13} -r_{31} \cr r_{21} -r_{12} \end{matrix} \right] \\)
