@@ -40,14 +40,14 @@ last_modified_at: 2023-10-19
 
 \\(^B P=^B_C T ^C P\\)
 
-\\(^B_C T=\left[ \begin{matrix} ^B_C R & ^B P_{CORG} \cr 0 & 1 \end{matrix} \right]
+\\(^B_C T=\left[ \begin{matrix} ^B_C R & ^B P_{CORG} \cr 0 & 1 \end{matrix} \right]\\)
 
 &nbsp;
 
 \\(^A P=^A_B T ^B P\\)
 
-\\(^A_B T=\left[ \begin{matrix} ^A_B R & ^A P_{BORG} \cr 0 & 1 \end{matrix} \right]
- 
+\\(^A_B T=\left[ \begin{matrix} ^A_B R & ^A P_{BORG} \cr 0 & 1 \end{matrix} \right]\\)
+
 &nbsp;
 
 \\(^A P=^A_C T ^C P=^A_B T ^B_C T ^C P\\)
@@ -61,3 +61,32 @@ last_modified_at: 2023-10-19
 &nbsp;
 
 # 3. Inverting a Transform
+\\(^A_B T\\)가 주어졌을 때 \\(^B_A T\\)를 구하는 방법
+
+&nbsp;
+
+\\(^A_B T\\)를 계산하기 위해 \\(^A_B R\\), \\(^A P_{BORG}\\)로부터 \\(^B_A R\\), \\(^B P_{AORG}\\)를 구한다.
+
+&nbsp;
+
+\\(^B_A R=^A_B R^T\\)\
+
+&nbsp;
+
+\\(^A P=^A_B R ^B P\\) 이므로 \\(^B (^A P_{BORG})=^B_A R ^A P_{BORG} +^B P_{AORG} \\)
+
+위 식에서 좌변은 0이 된다.
+
+&nbsp;
+
+\\(^B P_{AORG} =-^B_A R ^A P_{BORG} =-^A_B R^T ^A P_{BORG}\\)
+
+&nbsp;
+
+\\(^B_A T = \left[ \begin{matrix} ^B_A R & ^B P_{AORG} \cr 0 1 \end{matrix} \right] =\left[ \begin{matrix} ^A_B R^T & -^A_B R^T ^A P_{BORG} \cr 0 & 1 \end{matrix} \right]
+
+\\(^B_A T=^A _B T^{-1}\\)
+
+&nbsp;
+
+## 3-1. Example 2.5
