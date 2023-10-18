@@ -38,3 +38,9 @@ Frame \\(\lbrace i-1\rbrace \\)에 대한 Frame \\(\lbrace i\rbrace \\)의 표�
 &nbsp;
 
 # 2. Concatenating Link Transformations
+정기구학(Forward Kinematics): 주어진 Link의 Parameter 값을 사용해 작용점의 위치 계산\
+역기구학(Inverse Kinematics): 작용점의 위치를 통해 각 Link의 Parameter 값 계산
+
+&nbsp;
+
+양방향 전환을 지속적으로 주고받아야 로봇 제어 가능
