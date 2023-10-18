@@ -42,7 +42,7 @@ Frame \\(\lbrace A\rbrace \\)에 대해 Frame \\(\lbrace B\rbrace \\)를 \\(X_A\
 
 &nbsp;
 
-\\(\beta =Atan2(-r_{31}, \ \sqrt{r^2_{11} +r^2_{21}}) \\), where \\(-90^\circ <\beta <90^\circ \\)
+\\(\beta =Atan2(-r_{31}, \ \root{r^2_{11} +r^2_{21}}) \\), where \\(-90^\circ <\beta <90^\circ \\)
 
 \\(\alpha =Atan2(\dfrac{r_{21}}{c\beta} , \ \dfrac{r_{11}}{c\beta}) \\)
 
@@ -54,14 +54,15 @@ Frame \\(\lbrace A\rbrace \\)에 대해 Frame \\(\lbrace B\rbrace \\)를 \\(X_A\
 &nbsp;
 
 ## 2-1. \\(\beta =\pm 90.0^\circ \\)인 경우
-다음과 같이 계산할 수 있다.
-1) \\(\beta =90.0^\circ \\)인 경우
+다음과 같이 경우를 나누어 계산할 수 있다.\
+1) \\(\beta =90.0^\circ \\)인 경우\
    \\(\beta =90.0^\circ \\)
 
    \\(\alpha =0.0\\)
 
    \\(\gamma =Atan2(r_{12} , \ r_{22}) \\)
-2) \\(\beta =-90.0^\circ \\)인 경우
+   
+3) \\(\beta =-90.0^\circ \\)인 경우\
    \\(\beta =-90.0^\circ \\)
 
    \\(\alpha =0.0\\)
