@@ -21,7 +21,7 @@ last_modified_at: 2023-10-19
 
 &nbsp;
 
-예) \\(^B_1 T ^1_2 T ^2_3 T ^3_4 T ^4_E T= ^B_E T\\)
+예) \\(^B_1 T \ ^1_2 T \ ^2_3 T \ ^3_4 T \ ^4_E T= ^B_E T\\)
 
 &nbsp;
 
@@ -39,12 +39,12 @@ last_modified_at: 2023-10-19
 &nbsp;
 
 \\(^B P=^B_C T ^C P\\)
-- \\(^B_C T=\left[ \begin{matrix} ^B_C R & ^B P_{CORG} \cr 0 & 1 \end{matrix} \right]
+\\(^B_C T=\left[ \begin{matrix} ^B_C R & ^B P_{CORG} \cr 0 & 1 \end{matrix} \right]
 
 &nbsp;
 
 \\(^A P=^A_B T ^B P\\)
-- \\(^A_B T=\left[ \begin{matrix} ^A_B R & ^A P_{BORG} \cr 0 & 1 \end{matrix} \right]
+\\(^A_B T=\left[ \begin{matrix} ^A_B R & ^A P_{BORG} \cr 0 & 1 \end{matrix} \right]
  
 &nbsp;
 
