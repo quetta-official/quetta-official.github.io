@@ -79,7 +79,7 @@ last_modified_at: 2023-10-19
 
 &nbsp;
 
-\\(^B P_{AORG} =-^B_A R ^A P_{BORG} =-^A_B R^T ^A P_{BORG} \\)
+\\(^B P_{AORG} = - ^B_A R ^A P_{BORG} = - ^A_B R^T ^A P_{BORG} \\)
 
 &nbsp;
 
