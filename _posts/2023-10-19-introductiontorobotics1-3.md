@@ -58,7 +58,7 @@ Rotation Matrix: \\(R_K (\theta )\\)
 &nbsp;
 
 Ex) \\(Z\\)축에 대해 \\(\theta\\)만큼 회전하는 연산\
-\\[R_z (\theta )=\left[ \begin{matrix} R & 0_{3 \times 1} \cr 0_{1 \times 3} & 1 \end{matrix} \right] =\left[ \begin{matrix} cos\theta & -sin\theta & 0 & 0 \cr sin\theta & cos\theta & 0 & 0 \cr 0 & 0 & 1 & 0 \cr 0 & 0 & 0 & 1 \end{matrix} \right] \\]
+\\[R_z (\theta )=\left[ \begin{matrix} R & 0 \cr 0 & 1 \end{matrix} \right] =\left[ \begin{matrix} cos\theta & -sin\theta & 0 & 0 \cr sin\theta & cos\theta & 0 & 0 \cr 0 & 0 & 1 & 0 \cr 0 & 0 & 0 & 1 \end{matrix} \right] \\]
 
 &nbsp;
 
