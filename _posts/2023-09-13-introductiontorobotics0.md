@@ -30,7 +30,7 @@ last_modified_at: 2023-09-14
 [Chapter 1-3. Operators: Translations, Rotations, and Transformations](https://shine-loi.github.io/introduction%20to%20robotics/introductiontorobotics1-3/)\
 [Chapter 1-4. Transformation Arithmetic](https://shine-loi.github.io/introduction%20to%20robotics/introductiontorobotics1-4/)\
 [Chapter 1-5. Transform Equations](https://shine-loi.github.io/introduction%20to%20robotics/introductiontorobotics1-5/)\
-[Chapter 1-6. More on Representation of Orientation]()\
+[Chapter 1-6. More on Representation of Orientation](https://shine-loi.github.io/introduction%20to%20robotics/introductiontorobotics1-6/)\
 [Chapter 1-7. Computational Considerations]()
 
 &nbsp;
