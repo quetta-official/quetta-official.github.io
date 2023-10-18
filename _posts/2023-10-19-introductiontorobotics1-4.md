@@ -73,16 +73,16 @@ last_modified_at: 2023-10-19
 
 &nbsp;
 
-\\(^A P=^A_B R ^B P\\) 이므로 \\(^B (^A P_{BORG})=^B_A R ^A P_{BORG} +^B P_{AORG} \\)
+\\(^A P=^A_B R ^B P\\) 이므로 \\(^B (^A P_{BORG})=^B_A R \ ^A P_{BORG} +^B P_{AORG} \\)
 
 위 식에서 좌변은 0이 된다.
 
 &nbsp;
 
-\\(^B P_{AORG} = - ^B_A R ^A P_{BORG} = - ^A_B R^T ^A P_{BORG} \\)
+\\(^B P_{AORG} = - ^B_A R \ ^A P_{BORG} = - ^A_B R^T \ ^A P_{BORG} \\)
 
 &nbsp;
 
-\\(^B_A T = \left[ \begin{matrix} ^B_A R & ^B P_{AORG} \cr 0 & 1 \end{matrix} \right] =\left[ \begin{matrix} ^A_B R^T & - ^A_B R^T ^A P_{BORG} \cr 0 & 1 \end{matrix} \right] \\)
+\\(^B_A T = \left[ \begin{matrix} ^B_A R & ^B P_{AORG} \cr 0 & 1 \end{matrix} \right] =\left[ \begin{matrix} ^A_B R^T & - ^A_B R^T \ ^A P_{BORG} \cr 0 & 1 \end{matrix} \right] \\)
 
 \\(^B_A T=^A _B T^{-1}\\)
