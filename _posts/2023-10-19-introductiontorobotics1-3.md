@@ -58,7 +58,7 @@ Rotation Matrix: \\(R_K (\theta )\\)
 &nbsp;
 
 Ex) \\(Z\\)축에 대해 \\(\theta\\)만큼 회전하는 연산\
-\\[R_z (\theta)=\left[ \begin{matrix} R & 0_{3\times 1} \cr 0_{1\times 3} & 1 \end{matrix} \right] =\left[ \begin{matrix} cos\theta & -sin\theta & 0 & 0 \cr sin\theta & cos\theta & 0 & 0 \cr 0 & 0 & 1 & 0 \cr 0 & 0 & 0 & 1 \end{matrix} \right] \\]
+\\[R_z (\theta )=\left[ \begin{matrix} R & 0_{3 \times 1} \cr 0_{1 \times 3} & 1 \end{matrix} \right] =\left[ \begin{matrix} cos\theta & -sin\theta & 0 & 0 \cr sin\theta & cos\theta & 0 & 0 \cr 0 & 0 & 1 & 0 \cr 0 & 0 & 0 & 1 \end{matrix} \right] \\]
 
 &nbsp;
 
@@ -67,9 +67,11 @@ Ex) \\(Z\\)축에 대해 \\(\theta\\)만큼 회전하는 연산\
 
 &nbsp;
 
-주어진 벡터 \\(^A P_1\\)를 \\(Z\\)축에 대해 \\(30^\circ\\) 회전한 벡터 \\(^A P_2\\)\
-\\(^A P_1 =\left[ \begin{matrix} 0.0 \cr 2.0 \cr 0.0 \end{matrix} \right] \\)\
-\\(R_Z (30.0) =\left[ \begin{matrix} 0.866 & -0.500 & 0.000 \cr 0.500 & 0.866 & 0.000 \cr 0.000 & 0.000 & 1.000 \end{matrix} \right] \\)\
+주어진 벡터 \\(^A P_1\\)를 \\(Z\\)축에 대해 \\(30^\circ\\) 회전한 벡터 \\(^A P_2\\)
+
+\\(^A P_1 =\left[ \begin{matrix} 0.0 \cr 2.0 \cr 0.0 \end{matrix} \right] \\)
+
+\\(R_Z (30.0) =\left[ \begin{matrix} 0.866 & -0.500 & 0.000 \cr 0.500 & 0.866 & 0.000 \cr 0.000 & 0.000 & 1.000 \end{matrix} \right] \\)
 
 &nbsp;
 
@@ -97,8 +99,12 @@ Transformation(순서 주의)
 
 &nbsp;
 
-주어진 벡터 \\(^A P_1\\)를 \\(Z\\)축에 대해 \\(30^\circ\\) 회전시키고, \\(X_A\\) 방향으로 10, \\(Y_A\\) 방향으로 5만큼 이동.\
-\\(^A P_1 =\left[ \begin{matrix} 3.0 \cr 7.0 \cr 0.0 \end{matrix} \right] \\)\
+주어진 벡터 \\(^A P_1\\)를 \\(Z\\)축에 대해 \\(30^\circ\\) 회전시키고, \\(X_A\\) 방향으로 10, \\(Y_A\\) 방향으로 5만큼 이동.
+
+&nbsp;
+
+\\(^A P_1 =\left[ \begin{matrix} 3.0 \cr 7.0 \cr 0.0 \end{matrix} \right] \\)
+
 \\(T=\left[ \begin{matrix} 0.866 & -0.500 & 0.000 & 10.0 \cr 0.500 & 0.866 & 0.000 & 5.0 \cr 0.000 & 0.000 & 1.000 & 0.0 \cr 0 & 0 & 0 & 1 \end{matrix} \right] \\)
 
 &nbsp;
