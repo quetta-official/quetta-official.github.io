@@ -86,7 +86,3 @@ last_modified_at: 2023-10-19
 \\(^B_A T = \left[ \begin{matrix} ^B_A R & ^B P_{AORG} \cr 0 & 1 \end{matrix} \right] =\left[ \begin{matrix} ^A_B R^T & - ^A_B R^T ^A P_{BORG} \cr 0 & 1 \end{matrix} \right] \\)
 
 \\(^B_A T=^A _B T^{-1}\\)
-
-&nbsp;
-
-## 3-1. Example 2.5
