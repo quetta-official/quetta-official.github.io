@@ -30,7 +30,7 @@ Translation: 주어진 벡터에 따라 유한한 거리만큼 점 이동
 
 &nbsp;
 
-![image](assets/images/IR_Figure2.9.png)
+![image](/assets/images/IR_Figure2.9.png)
 
 &nbsp;
 
@@ -52,3 +52,55 @@ Translation: 주어진 벡터에 따라 유한한 거리만큼 점 이동
 &nbsp;
 
 # 3. Rotational Operators
+Rotation Matrix: \\(R_K (\theta )\\)
+- \\(K\\)축에 대해 \\(\theta\\)만큼 회전시키는 연산
+
+&nbsp;
+
+Ex) \\(Z\\)축에 대해 \\(\theta\\)만큼 회전하는 연산\
+\\[R_z (\theta)=\left[ \begin{matrix} R & 0_{3\times 1} \cr 0_{1\times 3} & 1 \end{matrix} \right] =\left[ \begin{matrix} cos\theta & -sin\theta & 0 & 0 \cr sin\theta & cos\theta & 0 & 0 \cr 0 & 0 & 1 & 0 \cr 0 & 0 & 0 & 1 \end{matrix} \right] \\]
+
+&nbsp;
+
+## 3-1. Example 2.3
+![image](/assets/images/IR_Figure2.10.png)
+
+&nbsp;
+
+주어진 벡터 \\(^A P_1\\)를 \\(Z\\)축에 대해 \\(30^\circ\\) 회전한 벡터 \\(^A P_2\\)\
+\\(^A P_1 =\left[ \begin{matrix} 0.0 \cr 2.0 \cr 0.0 \end{matrix} \right] \\)\
+\\(R_Z (30.0) =\left[ \begin{matrix} 0.866 & -0.500 & 0.000 \cr 0.500 & 0.866 & 0.000 \cr 0.000 & 0.000 & 1.000 \end{matrix} \right] \\)\
+
+&nbsp;
+
+\\(^A P_2 =R_Z (30.0) ^A P_1 =\left[ \begin{matrix} -1.000 \cr 1.732 \cr 0.000 \end{matrix} \right] \\)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+# 4. Transformation Operators
+Transformation(순서 주의)
+- \\(R\\)에 대해 Rotate
+- \\(Q\\)에 대해 Translate
+
+&nbsp;
+
+\\(^A P_2 =T ^A P_1\\)
+
+&nbsp;
+
+## 4-1. Exmaple 2.4
+![image](/assets/images/IR_Figure2.11.png)
+
+&nbsp;
+
+주어진 벡터 \\(^A P_1\\)를 \\(Z\\)축에 대해 \\(30^\circ\\) 회전시키고, \\(X_A\\) 방향으로 10, \\(Y_A\\) 방향으로 5만큼 이동.\
+\\(^A P_1 =\left[ \begin{matrix} 3.0 \cr 7.0 \cr 0.0 \end{matrix} \right] \\)\
+\\(T=\left[ \begin{matrix} 0.866 & -0.500 & 0.000 & 10.0 \cr 0.500 & 0.866 & 0.000 & 5.0 \cr 0.000 & 0.000 & 1.000 & 0.0 \cr 0 & 0 & 0 & 1 \end{matrix} \right] \\)
+
+&nbsp;
+
+\\(^A P_2 =T ^A P_1 =\left[ \begin{matrix} 9.098 \cr 12.562 \cr 0.000 \end{matrix} \right] \\)
