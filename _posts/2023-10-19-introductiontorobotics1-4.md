@@ -39,11 +39,13 @@ last_modified_at: 2023-10-19
 &nbsp;
 
 \\(^B P=^B_C T ^C P\\)
+
 \\(^B_C T=\left[ \begin{matrix} ^B_C R & ^B P_{CORG} \cr 0 & 1 \end{matrix} \right]
 
 &nbsp;
 
 \\(^A P=^A_B T ^B P\\)
+
 \\(^A_B T=\left[ \begin{matrix} ^A_B R & ^A P_{BORG} \cr 0 & 1 \end{matrix} \right]
  
 &nbsp;
