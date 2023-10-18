@@ -117,7 +117,8 @@ Homogeneous Transformation Matrix: \\( \left[ \begin{matrix} ^A P \cr 1 \end{mat
 
 &nbsp;
 
-\\(^A P_{BORG} =\left[ \begin{matrix} 10 \cr 5 \cr 0 \end{matrix} \right] \\) (문제에서 주어짐)\
+\\(^A P_{BORG} =\left[ \begin{matrix} 10 \cr 5 \cr 0 \end{matrix} \right] \\) (문제에서 주어짐)
+
 \\(^A_B R=\left[ \begin{matrix} c30^\circ & -s30^\circ & 0 \cr s30^\circ & c30^\circ & 0 \cr 0 & 0 & 1 \end{matrix} \right] \\)
 
 \\(^A_B T=\left[ \begin{matrix} ^A_B R & ^A P_{BORG} \cr 0_{1\times 3} & 1 \end{matrix} \right] =\left[ \begin{matrix} c30^\circ & -s30^\circ & 0 & 10 \cr s30^\circ & c30^\circ & 0 & 5 \cr 0 & 0 & 1 & 0 \cr 0 & 0 & 0 & 1 \end{matrix} \right] \\)
