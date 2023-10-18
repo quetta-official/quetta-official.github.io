@@ -69,7 +69,7 @@ last_modified_at: 2023-10-19
 
 &nbsp;
 
-\\(^B_A R=^A_B R^T\\)\
+\\(^B_A R=^A_B R^T\\)
 
 &nbsp;
 
@@ -79,11 +79,11 @@ last_modified_at: 2023-10-19
 
 &nbsp;
 
-\\(^B P_{AORG} =-^B_A R ^A P_{BORG} =-^A_B R^T ^A P_{BORG}\\)
+\\(^B P_{AORG} =-^B_A R ^A P_{BORG} =-^A_B R^T ^A P_{BORG} \\)
 
 &nbsp;
 
-\\(^B_A T = \left[ \begin{matrix} ^B_A R & ^B P_{AORG} \cr 0 1 \end{matrix} \right] =\left[ \begin{matrix} ^A_B R^T & -^A_B R^T ^A P_{BORG} \cr 0 & 1 \end{matrix} \right]
+\\(^B_A T = \left[ \begin{matrix} ^B_A R & ^B P_{AORG} \cr 0 & 1 \end{matrix} \right] =\left[ \begin{matrix} ^A_B R^T & - ^A_B R^T ^A P_{BORG} \cr 0 & 1 \end{matrix} \right] \\)
 
 \\(^B_A T=^A _B T^{-1}\\)
 
