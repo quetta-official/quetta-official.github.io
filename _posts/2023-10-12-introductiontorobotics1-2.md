@@ -89,15 +89,18 @@ Frame \\(\lbrace B\rbrace \\)를 Frame \\(\lbrace A\rbrace \\)의 방향으로 �
 
 &nbsp;
 
-General Transformation Mapping: \\(^A P=^A _B R ^B P+ ^A P_{BORG} \\)\
-Conceptual form(간단히 표현): \\(^A P=^A _B T ^B P\\)
+General Transformation Mapping: \\(^A P=^A_B R \ ^B P+^A P_{BORG} \\)\
+Conceptual form(간단히 표현): \\(^A P=^A_B T \ ^B P\\)
 
 &nbsp;
 
-Homogeneous Transformation Matrix: \\( \left[ \begin{matrix} ^A P \cr 1\end{matrix} \right] =^A _B T \left[ \begin{matrix} ^B P \cr 1\end{matrix} \right] =\left[ \begin{matrix} ^A _B R & ^A P_{BORG} \cr 0_{1\times 3} & 1\end{matrix} \right] \left[ \begin{matrix} ^B P \cr 1\end{matrix} \right] \\)
+Homogeneous Transformation Matrix: \\( \left[ \begin{matrix} ^A P \cr 1 \end{matrix} \right] = ^A _B T \left[ \begin{matrix} ^B P \cr 1 \end{matrix} \right] =\left[ \begin{matrix} ^A_B R & ^A P_{BORG} \cr 0_{1\times 3} & 1 \end{matrix} \right] \left[ \begin{matrix} ^B P \cr 1 \end{matrix} \right] \\)
 
 &nbsp;
 
-\\(^A _B T = T_D T_R (\neq T_R T_D)\\)
-- Translation: \\(T_D =\left[ \begin{matrix} I_{3\times 3} & ^A P_{BORG} \cr 0_{1\times 3} & 1\end{matrix} \right] \\)\
-- Rotation: \\(T_R =\left[ \begin{matrix} ^A _B R & 0_{3\times 1} \cr 0_{1\times 3} & 1\end{matrix} \right]
+\\(^A _B T\\)를 사용하여 나타내는 것은 표기하기에는 쉽지만 실제 계산할 때는 많은 0과 1 요소로 낭비되는 시간이 많기 때문에 가능한 연산을 줄여야 하는 프로그래밍에서는 잘 사용하지 않는다.
+&nbsp;
+
+\\(^A _B T = T_D \ T_R (\neq T_R \ T_D)\\)
+- Translation: \\(T_D =\left[ \begin{matrix} I_{3\times 3} & ^A P_{BORG} \cr 0_{1\times 3} & 1\end{matrix} \right] \\)
+- Rotation: \\(T_R =\left[ \begin{matrix} ^A_B R & 0_{3\times 1} \cr 0_{1\times 3} & 1\end{matrix} \right]
