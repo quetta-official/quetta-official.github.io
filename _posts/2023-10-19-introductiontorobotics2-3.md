@@ -29,4 +29,4 @@ Frame \\(\lbrace i-1\rbrace \\)에 대한 Frame \\(\lbrace i\rbrace \\)의 표�
 
 &nbsp;
 
-\\(^{i-1}_i T=R_X (\alpha_{i-1}) \ D_X (a_{i-1}) \ R_Z (\theta_i) \ D_Z (d_i) \\)
+\\(^{i-1}_i T=R_X (\alpha_{i-1}) \ D_X (a_{i-1}) \ R_Z (\theta_i) \ D_Z (d_i) =\left[ \begin{matrix} c\theta_i & -s\theta_i & 0 & a_{i-1} \cr s\theta_i \ c\alpha_{i-1} & -s\alpha_{i-1} & -s\alpha_{i-1} \ d_i \cr s\theta_i \ s\alpha_{i-1} & c\theta_i \ s\alpha_{i-1} & c\alpha_{i-1} & c\alpha_{i-1} \ d_i \cr 0 & 0 & 0 & 1 \end{matrix} \right] \\)
