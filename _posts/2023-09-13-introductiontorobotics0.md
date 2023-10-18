@@ -27,7 +27,7 @@ last_modified_at: 2023-09-14
 
 [Chapter 1-1. Descriptions: Positions, Orientations, and Frames](https://shine-loi.github.io/introduction%20to%20robotics/introductiontorobotics1-1/)\
 [Chapter 1-2. Mappings: Changing Descriptions from Frame to Frame](https://shine-loi.github.io/introduction%20to%20robotics/introductiontorobotics1-2/)\
-[Chapter 1-3. Operators: Translations, Rotations, and Transformations]()\
+[Chapter 1-3. Operators: Translations, Rotations, and Transformations](https://shine-loi.github.io/introduction%20to%20robotics/introductiontorobotics1-3/)\
 [Chapter 1-4. Summary of Interpretations]()\
 [Chapter 1-5. Transformation Arithmetic]()\
 [Chapter 1-6. Transform Equations]()\
