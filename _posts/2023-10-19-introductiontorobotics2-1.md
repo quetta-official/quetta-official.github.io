@@ -24,7 +24,7 @@ DOF(Degree of Freedom): 자세 결정에 필요한 최소 관절 개수
 
 &nbsp;
 
-![image](assets/images/IR_Figure3.2.png)
+![image](/assets/images/IR_Figure3.2.png)
 
 &nbsp;
 
