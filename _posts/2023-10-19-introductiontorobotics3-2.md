@@ -138,7 +138,7 @@ where \\(k_1 =L_1 +L_2 \ c_2\\), \\(k_2 =L_2 \ s_2\\)
 &nbsp;
 
 \\(x^2 +y^2 =L_1^2 +_2^2 -2L_1 \ L_2 \ cos(108+\theta _2 ) \\)
-- Law of Cosines: \\(c^2 =a^2 +b^2 -2a \b \cos\theta \\)
+- Law of Cosines: \\(c^2 =a^2 +b^2 -2a \ b \ cos\theta \\)
 
 &nbsp;
 
