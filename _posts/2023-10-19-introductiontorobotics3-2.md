@@ -75,14 +75,14 @@ where \\(k_1 =L_1 +L_2 \ c_2\\), \\(k_2 =L_2 \ s_2\\)
 &nbsp;
 
 ## 1-1. Method 1: Perform a Change of Variables
-\\(r=\sqrt{x^2 +y^2} = \sqrt{k_1^2 +k_2^2 } \\)라고 정의하면 다음이 성립한다.
+\\(r=\sqrt{x^2 +y^2} = \sqrt{k_1^2 +k_2^2 } \\) 라고 정의하면 다음이 성립한다.
 \\(\gamma =Atan2(k_2 , \ k_1)
 - \\(x\\)축을 \\(k_1\\), \\(y\\)축을 \\(k_2\\)라고 할 때 \\(r\\)은 원점에서 \\((k_1 , \ k_2 \\) 까지의 거리, \\(\gamma\\)는 \\(x\\)축과 원점과 \\((k_1 , \ k_2 \\)를 지나는 직선 사이의 각도라고 할 수 있다.
 
 &nbsp;
 
-\\(k_1 =rcos\gamma \\)\
-\\(k_2 =rsin\gamma \\)
+\\(k_1 =r \ cos\gamma \\)\
+\\(k_2 =r \ sin\gamma \\)
 
 &nbsp;
 
@@ -101,5 +101,5 @@ where \\(k_1 =L_1 +L_2 \ c_2\\), \\(k_2 =L_2 \ s_2\\)
 \\(c_\phi =c_{123}\\)\
 \\(s_\phi =s_{123}\\)
 
-\\(\rightarrow \ \theta _1 +\theta _2 +\theta _3 =Atan2(s _\phi , \ c _\phi ) =\phi \\)
+\\(\rightarrow \ \theta _1 +\theta _2 +\theta _3 =Atan2(s _\phi , \ c _\phi ) =\phi \\)\
 \\(\rightarrow \ theta _3 =\phi -\theta _1 -\theta _2 \\)
