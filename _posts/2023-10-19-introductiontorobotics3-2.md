@@ -133,3 +133,32 @@ where \\(k_1 =L_1 +L_2 \ c_2\\), \\(k_2 =L_2 \ s_2\\)
 &nbsp;
 
 ## 2. Geometric Solution
+![image](/assets/images/IR_Figure4.8.png)
+
+&nbsp;
+
+\\(x^2 +y^2 =L_1^2 +_2^2 -2L_1 \ L_2 \ cos(108+\theta _2 ) \\)
+- Law of Cosines: \\(c^2 =a^2 +b^2 -2a \b \cos\theta \\)
+
+&nbsp;
+
+\\(\rightarrow c_2 =\dfrac{x^2 +y^2 -L_1^2 -L_2^2 }{2L_1 \ L_2 } \\)
+
+**\\(\rightarrow \theta _2 =arccos(c_2 )\\)**
+
+&nbsp;
+
+\\(\beta =Atan2(y, \ x)\\)
+
+\\(cos\psi =\dfrac {x^2 +y^2 +L_1^2 -L_2^2 }{2L_1 \ \sqrt{x^2 +y^2 } } \\)
+- Law of Cosines
+
+&nbsp;
+
+**\\(\rightarrow \theta _1 =\beta \pm \psi \\)**
+
+&nbsp;
+
+\\(\theta _1 +\theta _2 +\theta _3 =\phi \\)
+
+**\\(\theta _3 =\phi -\theta _1 \theta _2 \\)**
