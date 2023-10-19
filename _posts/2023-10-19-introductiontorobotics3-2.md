@@ -109,3 +109,27 @@ where \\(k_1 =L_1 +L_2 \ c_2\\), \\(k_2 =L_2 \ s_2\\)
 &nbsp;
 
 ## 1-2. Method 2: Matrix
+\\(\theta _2 \\)는 위에서 구해진 상태
+
+&nbsp;
+
+\\(\left[ \begin{matrix} c_1 \cr s_1 \end{matrix} \right] =\left[ \begin{matrix} k_1 & -k_2 \cr k_2 & k_1 \end{matrix} \right] ^{-1} \left[ \begin{matrix} x \cr y \end{matrix} \right] =\dfrac 1{k_1^2 +k_2^2 } \left[ \begin{matrix} k_1 \ x +k_2 \ y \cr -k_2 \ x +k_1 \ y \end{matrix} \right] \\)
+
+**\\(\theta _1 =Atan2(s_1 , \ c_1 )\\)**
+
+&nbsp;
+
+\\(c_\phi =c_{123}\\)\
+\\(s_\phi =s_{123}\\)
+
+\\(\rightarrow \ \theta _1 +\theta _2 +\theta _3 =Atan2(s _\phi , \ c _\phi ) =\phi \\)
+
+**\\(\rightarrow \ \theta _3 =\phi -\theta _1 -\theta _2 \\)**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+## 2. Geometric Solution
