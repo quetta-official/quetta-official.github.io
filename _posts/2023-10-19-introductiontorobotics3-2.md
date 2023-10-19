@@ -92,14 +92,14 @@ where \\(k_1 =L_1 +L_2 \ c_2\\), \\(k_2 =L_2 \ s_2\\)
 
 &nbsp;
 
-\\(\gamma +\theta 1 =Atan2(\dfrac yr , \ \dfract xy ) =Atan2(y, \ x)\\)
+\\(\gamma +\theta _1 =Atan2(\dfrac yr , \ \dfrac xy ) =Atan2(y, \ x)\\)
 
-**\\(\theta _1 =Atan2(y, \ x)-Atan2(k_2 , \ k_1)**
+**\\(\theta _1 =Atan2(y, \ x)-Atan2(k_2 , \ k_1)\\)**
 
 &nbsp;
 
 \\(c_\phi =c_{123}\\)\
 \\(s_\phi =s_{123}\\)
 
-\\(\rightarrow \ \theta _1 +\theta _2 +\theta _3 =Atan2(s_\phi , \ c_\phi ) =\phi \\)
+\\(\rightarrow \ \theta _1 +\theta _2 +\theta _3 =Atan2(s _\phi , \ c _\phi ) =\phi \\)
 \\(\rightarrow \ theta _3 =\phi -\theta _1 -\theta _2 \\)
