@@ -85,6 +85,6 @@ Frame \\(\lbrace A\rbrace \\)에 대해 Frame \\(\lbrace B\rbrace \\)를 \\(X_A\
 # 3. Equivalent Angle-axis Representation
 \\(^A_B R_K (\theta)=\left[ \begin{matrix} r_{11} & r_{12} & r_{13} \cr r_{21} & r_{22} & r_{23} \cr r_{31} & r_{32} & r_{33} \end{matrix} \right] \\)라면 다음을 만족한다.
 
-\\(\theta =Acos(\dfrac{r_{11} +r_{12}+r_{33} -1}2)
+\\(\theta =Acos(\dfrac{r_{11} +r_{12}+r_{33} -1}2) \\)
 
 \\(\hat{K} =\dfrac 1{2sin\theta} \left[ \begin{matrix} r_{32} -r_{23} \cr r_{13} -r_{31} \cr r_{21} -r_{12} \end{matrix} \right] \\)
