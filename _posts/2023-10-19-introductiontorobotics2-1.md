@@ -31,10 +31,10 @@ DOF(Degree of Freedom): 자세 결정에 필요한 최소 관절 개수
 Link: Base를 \\(0\\), Base에 가까운 것부터 \\(1~n\\)으로 이름 붙여진다.\
 Joint axis: Link \\(i\\)의 왼쪽(Base와 가까워지는 쪽)이 \\(i\\), 오른쪽이 \\(i+1\\)로 이름 붙여진다.\
 Link length, \\(a_{i-1} \\): axis \\(i-1\\), \\(i\\)에 동시에 수직인 선의 길이
-- 두 axis에 동시에 수직인 직선은 항상 존재한다.
+- 두 axis에 동시에 수직인 직선은 항상 존재한다.\
 Link twist, \\(\alpha_{i-1} \\): axis \\(i-1\\), \\(i\\)의 각도\
 Link offset, \\(d_i \\): axis \\(i\\)에서 \\(a_{i-1}\\)와의 교차점과 \\(a_i\\)와의 교차점 사이의 부호를 고려한 거리
-- Prismatic joint에서는 이 값이 변수로서 사용된다.
+- Prismatic joint에서는 이 값이 변수로서 사용된다.\
 Joint angle, \\(\theta_i\\): \\(a_{i-1}\\)와 \\(a_i\\) 사이의 각도
 - Revolute joint에서는 이 값이 변수로서 사용된다.
 
