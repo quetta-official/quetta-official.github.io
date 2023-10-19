@@ -49,6 +49,7 @@ last_modified_at: 2023-09-14
 &nbsp;
 
 [Chapter 3-1. Solvability](https://shine-loi.github.io/introduction%20to%20robotics/introductiontorobotics3-1/)\
+[Chapter 3-2. Algebraic VS Geometric](https://shine-loi.github.io/introduction%20to%20robotics/introductiontorobotics3-2/)
 
 &nbsp;
 
