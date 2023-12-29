@@ -15,12 +15,12 @@
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko-KR"
-title                    : "샤인의 로봇소프트웨어공학 블로그"
+locale                   : "en-EN"
+title                    : "Shine's Studying Blog"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "샤인"
-description              : "공부하는 것들을 정리해서 올리는 블로그입니다."
+name                     : "Shine Loi Lee"
+description              : "Upload what I studied"
 url                      : "https://Shine-Loi.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Shine-Loi/comments" # GitHub username/repo-name e.g.
@@ -104,9 +104,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "샤인"
+  name             : "Shine Loi Lee"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "반갑습니다:)\n(카테고리 만드는 방법 아직 공부중...)"
+  bio              : "Hello:)\n(I'm still studying how to make category...)"
   location         : "Korea, Seoul"
   email            : "joett0514@gmail.com"
   links:
