@@ -31,27 +31,10 @@ sidebar_main: true
 
 &nbsp;
 
-# **SOFTWARE**
-## [Wireless Communications and Networks](https://shine-loi.github.io/categories/wirelesscommunicationsandnetworks)
-
-&nbsp;
-
 # **MATHEMATICS**
 ## [Calculus](https://shine-loi.github.io/categories/calculus)
 ## [Linear Algebra]()
 ## [Statistics]()
-
-&nbsp;
-
-# **GRADUATE SHCOOL INFORMATION**
-## [Korea]()
-## [Study Abroad]()
-
-&nbsp;
-
-# **LANGUAGES**
-## [English]()
-## [Russian]()
 
 &nbsp;
 
