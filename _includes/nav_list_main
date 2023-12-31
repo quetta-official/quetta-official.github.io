@@ -25,7 +25,7 @@
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">Programming Languages</span>
+        <span class="nav__sub-title">Basic Programming</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Cpp" %}
@@ -42,8 +42,61 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
+                    {% if category[0] == "Java" %}
+                        <li><a href="/categories/java" class=""> Java ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
                     {% if category[0] == "Linux" %}
                         <li><a href="/categories/linux" class=""> Linux ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+        <span class="nav__sub-title">Foundation Courses</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Calculus" %}
+                        <li><a href="/categories/calculus" class=""> Caculus ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Physics" %}
+                        <li><a href="/categories/physics" class=""> Physics ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Engineering Mathematics" %}
+                        <li><a href="/categories/engineeringmathematics" class=""> Engineering Mathematics ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Discrete Mathematics" %}
+                        <li><a href="/categories/discretemathematics" class=""> Discrete Mathematics ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Linear Algebra" %}
+                        <li><a href="/categories/linear-algebra" class=""> Linear Algebra ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+        <span class="nav__sub-title">Mathematics</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Statistics" %}
+                        <li><a href="/categories/statistics" class=""> Statistics ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -60,79 +113,6 @@
                 {% for category in site.categories %}
                     {% if category[0] == "Modern Robotics" %}
                         <li><a href="/categories/modernrobotics" class=""> Modern Robotics ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-
-       <span class="nav__sub-title">Robotics Software Engineering</span>
-           <ul>
-               {% for category in site.categories %}
-                  {% if category[0] == "Robotics Software Engineering" %}
-                      <li><a href="/categories/roboticssoftwareengineering" class=""> Robotics Software Engineering ({{category[1].size}})</a></li>
-                  {% endif %}
-               {% endfor %}
-            </ul>
-
-       <span class="nav__sub-title">Software</span>
-           <ul>
-               {% for category in site.categories %}
-                  {% if category[0] == "Wireless Communications and Networks" %}
-                      <li><a href="/categories/wirelesscommunicationsandnetworks" class=""> Wireless Communications and Networks ({{category[1].size}})</a></li>
-                  {% endif %}
-               {% endfor %}
-            </ul>
-
-        <span class="nav__sub-title">Mathematics</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Calculus" %}
-                        <li><a href="/categories/calculus" class=""> Caculus ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Linear Algebra" %}
-                        <li><a href="/categories/linear-algebra" class=""> Linear Algebra ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Statistics" %}
-                        <li><a href="/categories/statistics" class=""> Statistics ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-
-        <span class="nav__sub-title">Graduate School Information</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Korea" %}
-                        <li><a href="/categories/korea" class=""> Korea ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Study Abroad" %}
-                        <li><a href="/categories/studyabroad" class=""> Study Abroad ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-
-        <span class="nav__sub-title">Languages</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "English" %}
-                        <li><a href="/categories/english" class=""> English ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Russian" %}
-                        <li><a href="/categories/russian" class=""> Russian ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
