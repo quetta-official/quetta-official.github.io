@@ -13,28 +13,31 @@ sidebar_main: true
 
 &nbsp;
 
-# **PROGRAMMING LANGUAGES**
+# **BASIC PROGRAMMING**
 ## [C++]()
 ## [Python](https://shine-loi.github.io/categories/python)
+## [Java]()
 ## [Linux]()
+
+&nbsp;
+
+# **FOUNDATION COURSES**
+## [Calculus](https://shine-loi.github.io/categories/calculus)
+## [Physics]()
+## [Engineering Mathematics]()
+## [Discrete Mathematics]()
+## [Linear Algebra]()
+
+&nbsp;
+
+# **MATHEMATICS**
+## [Statistics]()
 
 &nbsp;
 
 # **ROBOTICS ENGINEERING**
 ## [Introduction to Robotics](https://shine-loi.github.io/categories/introductiontorobotics)
 ## [Modern Robotics](https://shine-loi.github.io/categories/modernrobotics)
-
-&nbsp;
-
-# **ROBOTICS SOFTWARE ENGINEERING**
-## [Robotics Software Engineering]()
-
-&nbsp;
-
-# **MATHEMATICS**
-## [Calculus](https://shine-loi.github.io/categories/calculus)
-## [Linear Algebra]()
-## [Statistics]()
 
 &nbsp;
 
