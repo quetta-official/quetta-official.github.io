@@ -57,9 +57,3 @@ sidebar_main: true
 # **ROBOTICS ENGINEERING**
 ## [Introduction to Robotics](https://shine-loi.github.io/categories/introductiontorobotics)
 ## [Modern Robotics](https://shine-loi.github.io/categories/modernrobotics)
-
-&nbsp;
-
-# **TAEKWONDO**
-## [Overview](https://shine-loi.github.io/categories/overview)
-## [Poomsae](https://shine-loi.github.io/categories/poomsae)
