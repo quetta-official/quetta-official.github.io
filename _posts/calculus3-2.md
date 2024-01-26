@@ -1,0 +1,46 @@
+---
+title:  "[Calculus] Chapter 3-2. The Mean Value Theorem"
+excerpt: "Applications of Differentiation"
+
+categories:
+  - Calculus
+tags:
+  - [Calculus]
+
+toc: true
+toc_sticky: true
+ 
+date: 2023-08-06
+last_modified_at: 2023-08-06
+---
+
+&nbsp;
+
+# 1) The Mean Value Theorem
+## Theorem 3.4: Rolle's Theorem
+Suppose that a function \\(y=f(x)\\) is continuous on the closed interval \\([a,b]\\) and differentiable in the open interval \\((a,b)\\). If \\(f(a)=f(b)\\), then there is at least one number \\(c\\) in \\((a,b)\\) where \\(f'(c)=0\\).
+
+&nbsp;
+
+![image](/assets/images/calculus3.2.png){: .align-center}
+<center>Figure 3.2</center>
+
+&nbsp;
+
+## Theorem 3.5: The Mean Value Theorem
+Suppose that a function \\(y=f(x)\\) is continuous on the closed interval \\([a,b]\\) and differentiable in the open interval \\((a,b)\\). Then, there is at least one number \\(c\\) in \\((a,b)\\) where \\(\displaystyle \frac{f(b)-f(a)}{b-a}=f'(c)\\)
+
+&nbsp;
+
+![image](/assets/images/calculus3.3.png){: .align-center}
+<center>Figure 3.3</center>
+
+&nbsp;
+
+## Corollary 1
+If a function \\(f(x)\\) satisfies \\(f'(x)\\) at all \\(x\\) in its domain, \\(f(x)\\) is a constant function.
+
+&nbsp;
+
+## Corollary 2
+If functions \\(f(x)\\) and \\(g(x)\\) satisfy \\(f'(x)=g'(x)\\) at all \\(x\\) in their domain, then they satisfy the equation \\(f(x)=g(x)+C\\), where \\(C\\) is a constant.
