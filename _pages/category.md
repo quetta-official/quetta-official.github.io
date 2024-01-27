@@ -51,9 +51,3 @@ sidebar_main: true
 &nbsp;
 
 # **Software**
-
-&nbsp;
-
-# **ROBOTICS ENGINEERING**
-## [Introduction to Robotics](https://shine-loi.github.io/categories/introductiontorobotics)
-## [Modern Robotics](https://shine-loi.github.io/categories/modernrobotics)
