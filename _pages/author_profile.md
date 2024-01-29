@@ -11,6 +11,6 @@ sidebar_main: true
 >
 >![image](/assets/images/profile.jpg){: width="50%" height="50%"}{: .align-center}
 >
-> <center>Name: Shine Loi Lee
+> <center>Name: Shine Loi Lee\
 > Nationality: Korea</center>
 >
