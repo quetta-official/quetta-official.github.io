@@ -12,5 +12,5 @@ sidebar_main: true
 
 &nbsp;
 
-| Name | Shine Loi Lee |
-| Nationality | Korea |
+# Name: Shine Loi Lee
+# Nationality: Korea
