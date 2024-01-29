@@ -8,12 +8,9 @@ author_profile: true
 sidebar_main: true
 ---
 
-# Name
-
-&nbsp;
-
-# Address
-
-&nbsp;
-
-# Email
+>
+>![image](/assets/images/profile.jpg){: width="50%" height="50%"}{: .align-center}
+>
+> Name: Shine Loi Lee\
+> Nationality: Korea\
+>
