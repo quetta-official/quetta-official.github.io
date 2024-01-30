@@ -18,13 +18,13 @@ Shine's Studying Materials 구글 드라이브에는 소프트웨어 또는 물�
 
 
 ## Folders
-1) #README
+**1) #README**\
 README 파일을 업로드합니다.
 
-2) English Materials
+**2) English Materials**\
 영어로 작성된 학습 자료를 업로드합니다.
 
-3) Korean Materials
+**3) Korean Materials**\
 한국어로 작성된 학습 자료를 업로드합니다.
 
 ## Credits
