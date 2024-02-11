@@ -24,7 +24,7 @@ sidebar_main: true
 
 # **FOUNDATION COURSES**
 ## [Calculus](https://shine-loi.github.io/categories/calculus)
-## [Physics(Not yet)]()
+## [Physics](https://shine-loi.github.io/categories/physics)
 ## [Chemistry(Not yet)]()
 ## [Engineering Mathematics(Not yet)]()
 ## [Discrete Mathematics(Not yet)]()
