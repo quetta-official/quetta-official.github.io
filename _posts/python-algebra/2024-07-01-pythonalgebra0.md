@@ -1,9 +1,9 @@
 ---
-title:  "[Python(Algebra)] Chapter 0. Overview"
+title:  "[Python-Algebra] Chapter 0. Overview"
 excerpt: ""
 
 categories:
-  - Python(Algebra)
+  - Python-Algebra
 tags:
   - [Python, Algebra]
 
@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
  
 date: 2024-07-01
-last_modified_at: 2024-07-01
+last_modified_at: 2024-07-02
 ---
 
 &nbsp;
