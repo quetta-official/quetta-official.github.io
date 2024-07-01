@@ -1,7 +1,7 @@
 ---
 title: "Python(Algebra)"
 layout: archive
-permalink: categories/pythonalgebra
+permalink: categories/python(algebra)
 author_profile: true
 sidebar_main: true
 ---
