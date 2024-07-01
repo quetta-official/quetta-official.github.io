@@ -55,6 +55,15 @@
                 {% endfor %}
             </ul>
 
+        <span class="nav__sub-title">Programming Applications</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Python(Algebra)" %}
+                        <li><a href="/categories/python-algebra" class=""> Python(Algebra) ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
         <span class="nav__sub-title">Foundation Courses</span>
             <ul>
                 {% for category in site.categories %}
