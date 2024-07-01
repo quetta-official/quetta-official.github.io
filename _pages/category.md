@@ -23,7 +23,7 @@ sidebar_main: true
 &nbsp;
 
 # **PROGRAMMING APPLICATIONS**
-## [Python(Algebra)](https://shine-loi.github.io/categories/python(algebra))
+## [Python(Algebra)](https://shine-loi.github.io/categories/#python-algebra)
 
 &nbsp;
 
