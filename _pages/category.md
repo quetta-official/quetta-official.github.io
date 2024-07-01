@@ -22,6 +22,11 @@ sidebar_main: true
 
 &nbsp;
 
+# **PROGRAMMING APPLICATIONS**
+## [Python(Algebra)](https://shine-loi.github.io/categories/python-algebra)
+
+&nbsp;
+
 # **FOUNDATION COURSES**
 ## [Calculus](https://shine-loi.github.io/categories/calculus)
 ## [Physics](https://shine-loi.github.io/categories/physics)
