@@ -16,14 +16,14 @@ sidebar_main: true
 # **BASIC PROGRAMMING**
 ## [C(Not yet)]()
 ## [C++(Not yet)]()
-## [Python(Complete)](https://shine-loi.github.io/categories/#python)
+## [Python(Complete)](https://shine-loi.github.io/categories/python)
 ## [Java(Not yet)]()
 ## [Linux(Not yet)]()
 
 &nbsp;
 
 # **PROGRAMMING APPLICATIONS**
-## [Python(Algebra)](https://shine-loi.github.io/categories/#python-algebra)
+## [Python(Algebra)](https://shine-loi.github.io/categories/python-algebra)
 
 &nbsp;
 
