@@ -5,7 +5,7 @@ excerpt: ""
 categories:
   - Python(Algebra)
 tags:
-  - [Python], [Algebra]
+  - [Python]
 
 toc: true
 toc_sticky: true
