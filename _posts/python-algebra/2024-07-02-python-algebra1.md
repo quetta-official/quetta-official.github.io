@@ -72,7 +72,7 @@ print("x =", solution[0])
 
 | Output |
 |---|
-\(\displaystyle \frac{95}{1}\)
+| x=95/7 |
 
 &nbsp;
 
@@ -94,7 +94,8 @@ display(Math("\\text{x = } %s" %sym.latex(solution[0])))
 
 | Output |
 |---|
-| ![image]() |
+|  |
+\(\displaystyle \frac{95}{1}\)
 
 &nbsp;
 
@@ -169,5 +170,6 @@ for i in range(0,len(solution)):
 
 | Output |
 |---|
+|  |
 \(\displaystyle x=-\sqrt(43) i\)\\
 \(\displaystyle x=\sqrt(43) i\)
