@@ -94,7 +94,7 @@ display(Math("\\text{x = } %s" %sym.latex(solution[0])))
 
 | Output |
 |---|
-| \(\displaystyle x=\frac{95}{7}\) |
+| ![image]() |
 
 &nbsp;
 
@@ -123,3 +123,50 @@ for i in range(0,len(solution)):
 &nbsp;
 
 I also used the same method as in (Ex 1) to solve (Ex 3). However, (Ex 3) has multiple solutions, so I used a 'for' statement to print all solutions.
+
+&nbsp;
+
+## 2-4. Equations with Imaginary solutions
+**(Ex 4) Solve the equation \(-2(x^2 -12)=110\).**
+
+&nbsp;
+
+```python
+import sympy as sym
+
+x=sym.symbols("x")
+exp=-2*(x**2-12)-110
+solution=sym.solve(exp)
+for i in range(0,len(solution)):
+    print("x =", solution[i])
+```
+
+&nbsp;
+
+| Output |
+|---|
+| x=-sqrt(43)*I |
+| x=sqrt(43)*I |
+
+&nbsp;
+
+(Ex 4) has imaginary solutions. The 'I' in the output represents an imaginary number. You can also use the 'latex()' function as in (Ex 2).
+
+&nbsp;
+
+```python
+import sympy as sym
+from IPython.display import display, Math
+
+x=sym.symbols("x")
+exp=-2*(x**2-12)-110
+solution=sym.solve(exp)
+for i in range(0,len(solution)):
+    display(Math("\\text{x = } %s" %sym.latex(solution[i])))
+```
+
+&nbsp;
+
+| Output |
+|---|
+| ![image]() |
