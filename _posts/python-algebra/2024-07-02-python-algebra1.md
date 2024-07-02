@@ -72,7 +72,7 @@ print("x =", solution[0])
 
 | Output |
 |---|
-| x=95/7 |
+\(\displaystyle \frac{95}{1}\)
 
 &nbsp;
 
@@ -169,4 +169,5 @@ for i in range(0,len(solution)):
 
 | Output |
 |---|
-| ![image]() |
+\(\displaystyle x=-\sqrt(43) i\)\\
+\(\displaystyle x=\sqrt(43) i\)
