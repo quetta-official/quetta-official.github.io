@@ -55,3 +55,21 @@ You can observe that the 'cancel()' function generates the standard rational exp
 &nbsp;
 
 # 2. Rationalizing the Denominator
+**(Ex 2) Simplify the expression \\(\displaystyle \frac{\sqrt{5} +\sqrt{20} x}{\sqrt{3} +\sqrt{12} x}\\)**
+
+&nbsp;
+
+```python
+import sympy as sym
+from IPython.display import display, Math
+
+x=sym.symbols("x")
+exp=(sym.sqrt(5)+sym.sqrt(20)*x)/(sym.sqrt(3)+sym.sqrt(12)*x)
+
+display(Math("%s" %sym.latex(sym.simplify(exp))))
+```
+
+&nbsp;
+
+**Output**\\
+\\(\displaystyle \frac{\sqrt{15}}{3}\\)
