@@ -93,7 +93,7 @@ display(Math("\\text{x = } %s" %sym.latex(solution[0])))
 &nbsp;
 
 **Output**\\
-\\(\displaystyle \frac{95}{7}\\)
+\\(\displaystyle x= \frac{95}{7}\\)
 
 &nbsp;
 
