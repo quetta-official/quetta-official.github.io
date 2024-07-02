@@ -92,10 +92,8 @@ display(Math("\\text{x = } %s" %sym.latex(solution[0])))
 
 &nbsp;
 
-| Output |
-|---|
-|  |
-\\(\displaystyle \frac{95}{1}\\)
+**Output**\\
+\\(\displaystyle \frac{95}{7}\\)
 
 &nbsp;
 
@@ -168,8 +166,6 @@ for i in range(0,len(solution)):
 
 &nbsp;
 
-| Output |
-|---|
-|  |
-\\(\displaystyle x=-\sqrt(43) i\\)\\
-\\(\displaystyle x=\sqrt(43) i\\)
+**Output**\\
+\\(\displaystyle x=-\sqrt{43} i\\)\\
+\\(\displaystyle x=\sqrt{43} i\\)
