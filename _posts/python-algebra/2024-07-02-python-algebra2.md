@@ -17,7 +17,7 @@ last_modified_at: 2024-07-02
 &nbsp;
 
 # 1. The 'cancel()' Function and the 'simplify()' Function
-**(Ex 1) Simplify the expression \\(\displaystyle 5x+3x^2 -/frac{1}{x} -\frac{7}{x^3}\\)**
+**(Ex 1) Simplify the expression \\(\displaystyle 5x+3x^2 -\frac{1}{x} -\frac{7}{x^3}\\)**
 
 &nbsp;
 
@@ -48,7 +48,7 @@ You can observe that the 'cancel()' function generates the standard rational exp
 &nbsp;
 
 **Output**\\
-\\(\displaystyle 5x+3x^2 -/frac{1}{x} -\frac{7}{x^3}\\)\\
+\\(\displaystyle 5x+3x^2 -\frac{1}{x} -\frac{7}{x^3}\\)\\
 \\(\displaystyle \frac{3x^5 +5x^4 -x^2 -7}{x^3}\\)\\
 \\(\displaystyle \frac{x^4 (3x+5)-x^2 -7}{x^3}\\)
 
