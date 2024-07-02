@@ -73,3 +73,86 @@ display(Math("%s" %sym.latex(sym.simplify(exp))))
 
 **Output**\\
 \\(\displaystyle \frac{\sqrt{15}}{3}\\)
+
+&nbsp;
+
+# 3. Canceling
+**(Ex 3) Simplify the expression \\(\displaystyle \frac{3x^6 +21x^4}{x^4 +11x^2 +28}\\)**
+
+&nbsp;
+
+```python
+import sympy as sym
+from IPython.display import display, Math
+
+x=sym.symbols("x")
+exp=(3*(x**6)+21*(x**4))/(x**4+11*(x**2)+28)
+
+display(Math("%s" %sym.latex(sym.simplify(exp))))
+```
+
+&nbsp;
+
+**Output**\\
+\\(\displaystyle \frac{3x^4}{x^2 +4}\\)
+
+&nbsp;
+
+# 4. Using Two Unknowns
+**(Ex 4) Simplify the expression \\(\displaystyle \frac{3x^2 +5xy+2y^2}{15x+10y}\\)**
+
+&nbsp;
+
+```python
+import sympy as sym
+from IPython.display import display, Math
+
+x, y=sym.symbols("x, y")
+exp=(3*(x**2)+5*x*y+2*y**2)/(15*x+10*y)
+
+display(Math("%s" %sym.latex(sym.simplify(exp))))
+```
+
+&nbsp;
+
+I used the same method as in the previous examples in the code above, but with a different way to define unknowns. This is because there are two unknowns in this example. You can define two unknowns by seperating 'x' and 'y' with a comma(,).
+
+&nbsp;
+
+**Output**\\
+\\(\displaystyle \frac{x}{5} +\frac{y}{5}\\)
+
+&nbsp;
+
+# 5. Substitution
+**(Ex 4) Simplify the expression \\(5x+7y-25\\) where \\(y=x+1\\)**
+
+&nbsp;
+
+```python
+import sympy as sym
+from IPython.display import display, Math
+
+x, y=sym.symbols("x, y")
+exp=5*x+7*y-25
+suby=2*x+1
+
+new_exp=exp.subs(y, suby)
+display(Math("%s" %sym.latex(new_exp)))
+```
+
+&nbsp;
+
+The variable 'exp' in the code above stores the expression that should be simplified. I stored \\(y=x+1\\) in the variable 'suby'. If you store the expression directly in the variable 'y', Python will define a new variable 'y' different from the original 'y' defined by the 'symbols()' function, which may result in incorrect outputs. Afterward, store the new expression created by substituting the value of 'y' in the variable 'new_exp'. You can use the 'subs()' function to substitute 'y'. The structure of the 'subs()' function is as follows:
+
+&nbsp;
+
+```python
+expression.subs(variable, value)
+```
+
+&nbsp;
+
+
+**Output**\\
+\\(19x-18\\)
