@@ -99,7 +99,7 @@ display(Math("\\text{x = } %s" %sym.latex(solution[0])))
 &nbsp;
 
 ## 2-3. Equations with Multiple Solutions
-**(Ex 3) Solve the equation \(x^2 =9\).**
+**(Ex 3) Solve the equation \(\displaystyle x^2 =9\).**
 
 &nbsp;
 
@@ -127,7 +127,7 @@ I also used the same method as in (Ex 1) to solve (Ex 3). However, (Ex 3) has mu
 &nbsp;
 
 ## 2-4. Equations with Imaginary solutions
-**(Ex 4) Solve the equation \(-2(x^2 -12)=110\).**
+**(Ex 4) Solve the equation \(\displaystyle -2(x^2 -12)=110\).**
 
 &nbsp;
 
