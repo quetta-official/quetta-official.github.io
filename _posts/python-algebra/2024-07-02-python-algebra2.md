@@ -11,13 +11,13 @@ toc: true
 toc_sticky: true
  
 date: 2024-07-02
-last_modified_at: 2024-07-02
+last_modified_at: 2024-07-03
 ---
 
 &nbsp;
 
 # 1. The 'cancel()' Function and the 'simplify()' Function
-**(Ex 1) Simplify the expression \\(\displaystyle 5x+3x^2 -\frac{1}{x} -\frac{7}{x^3}\\)**
+**(Ex 1) Simplify the expression \\(\displaystyle 5x+3x^2 -\frac{1}{x} -\frac{7}{x^3}\\).**
 
 &nbsp;
 
@@ -55,7 +55,7 @@ You can observe that the 'cancel()' function generates the standard rational exp
 &nbsp;
 
 # 2. Rationalizing the Denominator
-**(Ex 2) Simplify the expression \\(\displaystyle \frac{\sqrt{5} +\sqrt{20} x}{\sqrt{3} +\sqrt{12} x}\\)**
+**(Ex 2) Simplify the expression \\(\displaystyle \frac{\sqrt{5} +\sqrt{20} x}{\sqrt{3} +\sqrt{12} x}\\).**
 
 &nbsp;
 
@@ -77,7 +77,7 @@ display(Math("%s" %sym.latex(sym.simplify(exp))))
 &nbsp;
 
 # 3. Canceling
-**(Ex 3) Simplify the expression \\(\displaystyle \frac{3x^6 +21x^4}{x^4 +11x^2 +28}\\)**
+**(Ex 3) Simplify the expression \\(\displaystyle \frac{3x^6 +21x^4}{x^4 +11x^2 +28}\\).**
 
 &nbsp;
 
@@ -99,7 +99,7 @@ display(Math("%s" %sym.latex(sym.simplify(exp))))
 &nbsp;
 
 # 4. Using Two Unknowns
-**(Ex 4) Simplify the expression \\(\displaystyle \frac{3x^2 +5xy+2y^2}{15x+10y}\\)**
+**(Ex 4) Simplify the expression \\(\displaystyle \frac{3x^2 +5xy+2y^2}{15x+10y}\\).**
 
 &nbsp;
 
@@ -125,7 +125,7 @@ I used the same method as in the previous examples in the code above, but with a
 &nbsp;
 
 # 5. Substitution
-**(Ex 4) Simplify the expression \\(5x+7y-25\\) where \\(y=x+1\\)**
+**(Ex 5) Simplify the expression \\(5x+7y-25\\) where \\(y=x+1\\).**
 
 &nbsp;
 
@@ -153,6 +153,37 @@ expression.subs(variable, value)
 
 &nbsp;
 
-
 **Output**\\
 \\(19x-18\\)
+
+&nbsp;
+
+# 6. Determining the Cancel Possibility
+**(Ex 6) Find the natural number y less than 10 that makes the expression \\(\displaystyle \frac{10x^3 +33x^2 +23x -y}{2x+3}\\) cancelable, and print the result.**
+
+&nbsp;
+
+```python
+import sympy as sym
+from IPython.display import display, Math
+
+x, y=sym.symbols("x, y")
+exp=(10*x**3+33*x**2+23*x-y)/(2*x+3)
+
+for yi in range(1, 10):
+    tempexp=exp.subs(y, yi)
+    if sym.fraction(sym.cancel(tempexp))[1]==1:
+        print("y =", yi)
+        display(Math("%s" %sym.latex(sym.simplify(tempexp))))
+        break
+```
+
+&nbsp;
+
+In the code above, the variable 'yi' takes values from 1 to 9 and is sequentially substituted into 'y'. The code stores each expression, created by substituting 'yi' into 'y', in the variable 'tempexp'. The 'fraction()' function used in the 'if' statement returns the given expression in the form of a fraction. The 'fraction()' function returns a tuple, which sequentially stores the numerator and the denominator. This means the 'if' statement cancels the expression 'tempexp' using the 'cancel()' function and checks whether the denominator is 1. If the denominator is 1, the expression is successfully canceled, indicating that the value of 'yi' is a solution. When Python finds a solution, it stops executing the remaining code. If there is no solution within the given range, the code will terminate without printing anything.
+
+&nbsp;
+
+**Output**\\
+\\(y=6\\)\\
+\\(5x^2 +9x-2\\)
