@@ -12,18 +12,18 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-EN"
-title                    : "Shine's Studying Blog"
+title                    : "Quetta Official Web"
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Shine Loi Lee"
-description              : "Upload what I studied"
-url                      : "https://Shine-Loi.github.io"
+name                     : "Quetta"
+description              : "Upload what I worked"
+url                      : "https://quetta-official.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "Shine-Loi/comments" # GitHub username/repo-name e.g.
+repository               : # "Shine-Loi/comments" # GitHub username/repo-name e.g.
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -104,11 +104,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Shine Loi Lee"
-  avatar           : /assets/images/profile.jpg
-  bio              : "Hello:)\n(I'm still studying how to make category...)"
+  name             : "Quetta"
+  avatar           : # /assets/images/profile.jpg
+  bio              : "Hello:)"
   location         : "Korea, Seoul"
-  email            : "joett0514@gmail.com"
+  email            : # "joett0514@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -127,7 +127,7 @@ author:
       # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/shining_rohee"
+      # url: "https://instagram.com/shining_rohee"
 
 # Site Footer
 footer:
@@ -149,13 +149,13 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/shining_rohee"
+      # url: "https://www.instagram.com/shining_rohee"
     - label: "Open KKT"
       icon: "fab fa-fw fa-kickstarter-k"
       # url: "https://open.kakao.com/o/gMHS5dyf"
     - label: "Discord"
       icon: "fab fa-fw fa-discord"
-      url: "https://discord.gg/6bVpcRSV"
+      # url: "https://discord.gg/6bVpcRSV"
 
 
 # Reading Files
